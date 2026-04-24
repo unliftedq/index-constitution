@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling", "pandas>=1.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "index-constitution"
+version = "0.1.0"
+description = "Point-in-time and current constituents for major stock indices (CSI 300, S&P 500, NASDAQ-100), packaged as pandas DataFrames."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "index-constitution contributors" }]
+keywords = ["finance", "stocks", "index", "csi300", "sp500", "nasdaq100", "backtesting", "constituents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+    "pandas>=1.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/zhifeichen/index-constitution"
+Repository = "https://github.com/zhifeichen/index-constitution"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/index_constitution"]
+# Pickles are generated at build time by hatch_build.py and force-included.
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+path = "hatch_build.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/history",
+    "/latest",
+    "/build_data.py",
+    "/hatch_build.py",
+    "/README.md",
+    "/README.zh.md",
+    "/LICENSE",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "build>=1.2",
+    "twine>=5",
+]

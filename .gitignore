@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+uv.lock
+
+# Generated at build time from history/ and latest/ CSVs.
+src/index_constitution/_data/

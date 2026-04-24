@@ -19,14 +19,39 @@ This repo collects and normalizes that information into plain CSV files so it ca
 ## Structure
 
 ```text
-history/
-    csi300.csv
-    nasdaq100.csv
-    sp500.csv
-latest/
-    csi300.csv
-    nasdaq100.csv
-    sp500.csv
+src/index_constitution/_data/
+    history/
+        csi300.csv
+        nasdaq100.csv
+        sp500.csv
+    latest/
+        csi300.csv
+        nasdaq100.csv
+        sp500.csv
+```
+
+## Python package
+
+This repo also ships a small Python library that embeds the CSVs and exposes
+them as pandas DataFrames.
+
+Install:
+
+```bash
+pip install index-constitution
+```
+
+Usage:
+
+```python
+import index_constitution as ic
+
+ic.list_indices()                    # ['csi300', 'sp500', 'nasdaq100']
+
+ic.latest("sp500")                   # current S&P 500 members
+ic.history("csi300")                 # full CSI 300 history with opt-in/opt-out
+ic.constituents_at("sp500", "2015-06-30")   # point-in-time membership
+ic.is_member("sp500", "AAPL", "2020-01-02") # True
 ```
 
 ## Use Cases
