@@ -1,0 +1,76 @@
+name: Index data update
+description: Request or document an index constituent data addition or change
+title: "[Index Update] "
+labels:
+  - data-update
+body:
+  - type: input
+    id: index_name
+    attributes:
+      label: Index name
+      description: Which index does this update affect?
+      placeholder: CSI 300
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change type
+      options:
+        - Add new index dataset
+        - Update current constituents
+        - Update historical composition
+        - Correct existing data
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected_files
+    attributes:
+      label: Affected files
+      description: List the files that should be created or updated.
+      placeholder: |
+        latest/csi300.csv
+        history/csi300.csv
+    validations:
+      required: true
+
+  - type: input
+    id: effective_date
+    attributes:
+      label: Effective date
+      description: Date when the change became effective, if known.
+      placeholder: 2026-04-24
+    validations:
+      required: true
+
+  - type: textarea
+    id: source_links
+    attributes:
+      label: Source evidence
+      description: Provide authoritative source links and, if possible, the relevant excerpt or summary.
+      placeholder: |
+        Source URL:
+        Publication date:
+        Evidence summary:
+    validations:
+      required: true
+
+  - type: textarea
+    id: change_summary
+    attributes:
+      label: Proposed update
+      description: Describe exactly what should be added, removed, or changed.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have included enough source evidence for a reviewer to verify this index data change.
+          required: true
+        - label: I understand that data changes without verifiable sources may be rejected.
+          required: true
