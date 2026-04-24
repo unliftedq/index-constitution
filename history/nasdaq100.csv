@@ -1,33 +1,33 @@
 ﻿symbol,name,opt-in,opt-out
 AAL,American Airlines Group,2014-12-22,2020-04-20
-AAPL,Apple Inc. Common Stock,2006-01-01,
-ABNB,"Airbnb, Inc. Class A Common Stock",2021-12-20,
-ADBE,Adobe Inc. Common Stock,2006-01-01,
-ADI,"Analog Devices, Inc. Common Stock",2012-12-24,
-ADP,"Automatic Data Processing, Inc. Common Stock",2008-12-22,
-ADSK,"Autodesk, Inc. Common Stock",2006-01-01,
+AAPL,Apple Inc.,2006-01-01,
+ABNB,"Airbnb, Inc. Class A",2021-12-20,
+ADBE,Adobe Inc.,2006-01-01,
+ADI,"Analog Devices, Inc.",2012-12-24,
+ADP,"Automatic Data Processing, Inc.",2008-12-22,
+ADSK,"Autodesk, Inc.",2006-01-01,
 AEOS,American Eagle Outfitters,2006-01-01,2007-03-08
-AEP,"American Electric Power Company, Inc. Common Stock",2020-12-21,
+AEP,"American Electric Power Company, Inc.",2020-12-21,
 AKAM,Akamai Technologies,2006-01-01,2009-12-21
 AKAM,Akamai Technologies,2010-12-20,2017-12-18
 ALGN,Align Technology,2017-10-23,2023-12-18
-ALNY,"Alnylam Pharmaceuticals, Inc. Common Stock",2025-12-22,
+ALNY,"Alnylam Pharmaceuticals, Inc.",2025-12-22,
 ALTR,Altera,2006-01-01,2015-10-07
 ALXN,Alexion Pharmaceuticals,2011-04-04,2021-07-21
-AMAT,"Applied Materials, Inc. Common Stock",2006-01-01,
-AMD,"Advanced Micro Devices, Inc. Common Stock",2018-12-24,
-AMGN,Amgen Inc. Common Stock,2006-01-01,
+AMAT,"Applied Materials, Inc.",2006-01-01,
+AMD,"Advanced Micro Devices, Inc.",2018-12-24,
+AMGN,Amgen Inc.,2006-01-01,
 AMLN,Amylin Pharmaceuticals,2006-01-01,2008-12-22
-AMZN,"Amazon.com, Inc. Common Stock",2006-01-01,
+AMZN,"Amazon.com, Inc.",2006-01-01,
 ANSS,Ansys,2019-12-23,2025-07-17
 APCC,American Power Conversion,2006-01-01,2007-02-14
 APOL,Apollo Group,2006-01-01,2012-12-24
-APP,Applovin Corporation Class A Common Stock,2024-11-18,
+APP,Applovin Corporation Class A,2024-11-18,
 ARM,Arm Holdings plc American Depositary Shares,2024-06-24,
 ASML,ASML Holding N.V. New York Registry Shares,2017-12-18,
 ATVI,Activision Blizzard,2006-01-01,2023-07-17
-AVGO,Broadcom Inc. Common Stock,2011-12-19,
-AXON,"Axon Enterprise, Inc. Common Stock",2024-12-23,
+AVGO,Broadcom Inc.,2011-12-19,
+AXON,"Axon Enterprise, Inc.",2024-12-23,
 AZN,AstraZeneca,2022-02-22,2026-01-20
 BATRA,Liberty Media,2016-04-18,2016-06-20
 BATRK,Liberty Media,2016-04-18,2016-06-20
@@ -35,8 +35,8 @@ BBBY,Bed Bath & Beyond,2006-01-01,2016-12-19
 BEAS,BEA Systems,2006-01-01,2008-04-30
 BIDU,"Baidu.com, Inc.",2007-12-04,2022-12-19
 BIIB,Biogen,2006-01-01,2025-12-22
-BKNG,Booking Holdings Inc. Common Stock,2009-10-29,
-BKR,Baker Hughes Company Class A Common Stock,2022-12-19,
+BKNG,Booking Holdings Inc.,2009-10-29,
+BKR,Baker Hughes Company Class A,2022-12-19,
 BMC,BMC Software,2009-12-21,2013-07-25
 BMET,Biomet,2006-01-01,2007-07-12
 BMRN,BioMarin Pharmaceutical,2015-07-27,2020-12-21
@@ -44,37 +44,37 @@ BRCM,Broadcom Corporation,2006-01-01,2015-11-11
 CA,CA Technologies,2008-05-19,2018-11-05
 CCEP,Coca-Cola Europacific Partners plc Ordinary Shares,2023-12-18,
 CDNS,Cadence Design Systems,2006-01-01,2008-12-22
-CDNS,"Cadence Design Systems, Inc. Common Stock",2017-12-18,
+CDNS,"Cadence Design Systems, Inc.",2017-12-18,
 CDW,CDW,2019-12-23,2021-12-20
 CDW,CDW,2023-12-18,2025-12-22
 CDWC,CDW Corporation,2006-01-01,2007-10-08
-CEG,Constellation Energy Corporation Common Stock,2022-02-02,
+CEG,Constellation Energy Corporation,2022-02-02,
 CELG,Celgene,2006-01-01,2019-11-21
 CEPH,Cephalon,2007-06-01,2011-07-15
 CERN,Cerner,2009-07-17,2021-12-20
 CHKP,Check Point,2006-01-01,2021-12-20
 CHRW,C. H. Robinson Worldwide,2006-01-01,2015-12-21
-CHTR,"Charter Communications, Inc. Class A Common Stock New",2013-07-25,
+CHTR,"Charter Communications, Inc. Class A New",2013-07-25,
 CKFR,CheckFree Corporation,2006-01-01,2007-12-04
-CMCSA,Comcast Corporation Class A Common Stock,2006-01-01,
+CMCSA,Comcast Corporation Class A,2006-01-01,
 CMCSK,Comcast Corporation Class A,2014-12-22,
 CMVT,Comverse Technology,2006-01-01,2007-02-01
-COST,Costco Wholesale Corporation Common Stock,2006-01-01,
-CPRT,"Copart, Inc. (DE) Common Stock",2019-12-23,
-CRWD,"CrowdStrike Holdings, Inc. Class A Common Stock",2021-08-26,
-CSCO,"Cisco Systems, Inc. Common Stock (DE)",2006-01-01,
+COST,Costco Wholesale Corporation,2006-01-01,
+CPRT,"Copart, Inc. (DE)",2019-12-23,
+CRWD,"CrowdStrike Holdings, Inc. Class A",2021-08-26,
+CSCO,"Cisco Systems, Inc (DE)",2006-01-01,
 CSGP,CoStar Group,2019-12-23,2020-07-20
-CSGP,"CoStar Group, Inc. Common Stock",2022-12-19,
-CSX,CSX Corporation Common Stock,2016-02-16,
+CSGP,"CoStar Group, Inc.",2022-12-19,
+CSX,CSX Corporation,2016-02-16,
 CTAS,Cintas,2006-01-01,2010-12-20
-CTAS,Cintas Corporation Common Stock,2016-12-19,
+CTAS,Cintas Corporation,2016-12-19,
 CTRP,Ctrip,2010-12-20,2012-07-23
 CTRP,Ctrip,2015-12-21,
 CTRX,Catamaran Corporation,2012-12-24,2015-07-24
-CTSH,Cognizant Technology Solutions Corporation Class A Common Stock,2006-01-01,
+CTSH,Cognizant Technology Solutions Corporation Class A,2006-01-01,
 CTXS,Citrix Systems,2006-01-01,2020-12-21
-DASH,"DoorDash, Inc. Class A Common Stock",2023-12-18,
-DDOG,"Datadog, Inc. Class A Common Stock",2021-12-20,
+DASH,"DoorDash, Inc. Class A",2023-12-18,
+DDOG,"Datadog, Inc. Class A",2021-12-20,
 DELL,Dell,2006-01-01,2013-10-29
 DISCA,Discovery Communications Class A,2006-01-01,2008-12-22
 DISCA,Discovery Communications,2012-12-24,2017-12-18
@@ -84,21 +84,21 @@ DISH,DISH Network Corporation,2013-12-23,2018-07-23
 DLTR,Dollar Tree,2010-12-20,2024-11-18
 DOCU,DocuSign,2020-06-22,2022-12-19
 DTV,DirecTV,2008-04-30,2015-07-24
-DXCM,"DexCom, Inc. Common Stock",2020-04-20,
+DXCM,"DexCom, Inc.",2020-04-20,
 EA,Electronic Arts,2006-01-01,2012-12-24
-EA,Electronic Arts Inc. Common Stock,2014-12-22,
+EA,Electronic Arts Inc.,2014-12-22,
 EBAY,EBay,2006-01-01,2023-12-18
 ENDP,Endo International,2015-12-21,
 ENPH,Enphase Energy,2022-11-21,2023-12-18
 EQIX,Equinix,2012-12-24,2015-03-23
 ERIC,LM Ericsson,2006-01-01,2007-12-24
 ESRX,Express Scripts,2006-01-01,2018-12-24
-EXC,Exelon Corporation Common Stock,2019-11-21,
+EXC,Exelon Corporation,2019-11-21,
 EXPD,Expeditors International,2006-01-01,2015-12-21
 EXPE,Expedia Group,2006-01-01,2014-12-22
 EXPE,Expedia Group,2015-12-21,2020-12-21
-FANG,"Diamondback Energy, Inc. Common Stock",2022-12-19,
-FAST,Fastenal Company Common Stock,2006-01-01,
+FANG,"Diamondback Energy, Inc.",2022-12-19,
+FAST,Fastenal Company,2006-01-01,
 FER,Ferrovial SE Ordinary Shares,2025-12-22,
 FFIV,F5 Networks,2010-12-20,2014-12-22
 FI,Fiserv,2006-01-01,2023-06-07
@@ -109,46 +109,46 @@ FOSL,Fossil Group,2011-12-19,2013-12-23
 FOX,"Twenty-First Century Fox, Inc. Class B",2014-12-22,2021-12-20
 FOXA,Fox Corporation Class A,2019-03-19,2021-12-20
 FSLR,First Solar,2008-12-22,2012-04-23
-FTNT,"Fortinet, Inc. Common Stock",2021-12-20,
+FTNT,"Fortinet, Inc.",2021-12-20,
 FWLT,Foster Wheeler,2007-07-12,2010-12-20
-GEHC,GE HealthCare Technologies Inc. Common Stock,2023-06-07,
+GEHC,GE HealthCare Technologies Inc.,2023-06-07,
 GENZ,Genzyme,2006-01-01,2011-04-04
 GFS,GlobalFoundries,2022-12-19,2025-12-22
-GILD,"Gilead Sciences, Inc. Common Stock",2006-01-01,
+GILD,"Gilead Sciences, Inc.",2006-01-01,
 GMCR,Green Mountain Coffee Roasters,2011-05-27,2012-12-24
 GMCR,Green Mountain Coffee Roasters,2013-08-22,2015-12-21
 GOLD,Randgold Resources,2011-12-19,2013-11-18
 GOOG,Alphabet Inc. Class C Capital Stock,2014-04-03,
-GOOGL,Alphabet Inc. Class A Common Stock,2006-01-01,
+GOOGL,Alphabet Inc. Class A,2006-01-01,
 GRMN,Garmin,2006-01-01,2015-12-21
 HANS,Hansen Natural,2007-12-24,2009-12-21
 HANS,Hansen Natural,2011-12-19,
 HAS,Hasbro,2016-12-19,2019-12-23
 HOLX,Hologic,2007-12-24,2010-12-20
 HOLX,Hologic,2016-12-19,2018-12-24
-HON,Honeywell International Inc. Common Stock,2021-07-21,
+HON,Honeywell International Inc.,2021-07-21,
 HSIC,Henry Schein,2006-01-01,2019-12-23
 IACI,IAC/InterActiveCorp,2006-01-01,2009-12-21
-IDXX,"IDEXX Laboratories, Inc. Common Stock",2017-03-20,
+IDXX,"IDEXX Laboratories, Inc.",2017-03-20,
 ILMN,Illumina,2008-12-22,2011-12-19
 ILMN,Illumina,2013-12-23,2024-12-23
 INCY,Incyte,2015-10-07,2021-12-20
 INFY,Infosys,2006-01-01,2012-12-12
-INSM,Insmed Incorporated Common Stock,2025-12-22,
-INTC,Intel Corporation Common Stock,2006-01-01,
-INTU,Intuit Inc. Common Stock,2006-01-01,
-ISRG,"Intuitive Surgical, Inc. Common Stock",2006-01-01,
+INSM,Insmed Incorporated,2025-12-22,
+INTC,Intel Corporation,2006-01-01,
+INTU,Intuit Inc.,2006-01-01,
+ISRG,"Intuitive Surgical, Inc.",2006-01-01,
 JAVA,Sun Microsystems,2006-01-01,2009-07-17
 JBHT,J. B. Hunt,2008-12-22,2010-12-20
 JBHT,J.B. Hunt,2017-02-07,2019-12-23
 JD,JD.com,2015-07-29,2023-12-18
 JNPR,Juniper Networks,2006-01-01,2009-10-29
 JOYG,Joy Global,2006-01-01,2011-12-06
-KDP,Keurig Dr Pepper Inc. Common Stock,2020-10-19,
+KDP,Keurig Dr Pepper Inc.,2020-10-19,
 KFT,Kraft Foods,2012-07-23,
-KHC,The Kraft Heinz Company Common Stock,2015-07-02,
+KHC,The Kraft Heinz Company,2015-07-02,
 KLAC,KLA-Tencor,2006-01-01,2016-02-16
-KLAC,KLA Corporation Common Stock,2016-12-19,
+KLAC,KLA Corporation,2016-12-19,
 KRFT,Kraft Foods,2013-03-18,2015-07-02
 LAMR,Lamar Advertising Company,2006-01-01,2008-12-22
 LBTYA,Liberty Global Class A,2006-01-01,2009-12-21
@@ -166,36 +166,36 @@ LMCA,Liberty Media,2013-06-05,2016-06-20
 LMCK,Liberty Media,2006-01-01,2016-06-20
 LOGI,Logitech,2006-01-01,2010-12-20
 LRCX,Lam Research,2006-01-01,2012-12-24
-LRCX,Lam Research Corporation Common Stock,2014-12-22,
+LRCX,Lam Research Corporation,2014-12-22,
 LULU,lululemon Athletica,2018-12-24,2025-12-22
 LVLT,Level 3 Communications,2006-01-01,2008-12-22
-MAR,Marriott International Class A Common Stock,2013-11-18,
+MAR,Marriott International Class A,2013-11-18,
 MAT,Mattel,2009-12-21,2017-10-23
 MCHP,Microchip Technology,2006-01-01,2013-12-23
-MCHP,Microchip Technology Incorporated Common Stock,2016-07-18,
+MCHP,Microchip Technology Incorporated,2016-07-18,
 MDB,MongoDB,2023-12-18,2025-05-19
-MDLZ,"Mondelez International, Inc. Class A Common Stock",2006-01-01,
+MDLZ,"Mondelez International, Inc. Class A",2006-01-01,
 MEDI,MedImmune,2006-01-01,2007-06-01
-MELI,"MercadoLibre, Inc. Common Stock",2017-06-19,
-META,"Meta Platforms, Inc. Class A Common Stock",2012-12-12,
+MELI,"MercadoLibre, Inc.",2017-06-19,
+META,"Meta Platforms, Inc. Class A",2012-12-12,
 MICC,Millicom International Cellular,2006-01-01,2011-05-27
 MNST,Monster Beverage Corporation,2006-01-01,
 MNST,Monster Worldwide,2006-01-01,2008-11-10
-MPWR,"Monolithic Power Systems, Inc. Common Stock",2025-12-22,
+MPWR,"Monolithic Power Systems, Inc.",2025-12-22,
 MRNA,Moderna,2020-07-20,2024-12-23
 MRVL,Marvell Technology Group,2006-01-01,2012-12-24
-MRVL,"Marvell Technology, Inc. Common Stock",2020-12-21,
-MSFT,Microsoft Corporation Common Stock,2006-01-01,
-MSTR,Strategy Inc Common Stock Class A,2024-12-23,
+MRVL,"Marvell Technology, Inc.",2020-12-21,
+MSFT,Microsoft Corporation,2006-01-01,
+MSTR,Strategy Inc Class A,2024-12-23,
 MTCH,Match Group,2020-12-21,2022-12-19
-MU,"Micron Technology, Inc. Common Stock",2010-12-20,
+MU,"Micron Technology, Inc.",2010-12-20,
 MXIM,Maxim Integrated Products,2008-12-22,2014-12-22
 MXIM,Maxim Integrated Products,2015-12-21,2021-08-26
 MYL,Mylan,2009-12-21,2019-12-23
 NCLH,Norwegian Cruise Line,2015-12-21,2017-12-18
 NDOI,Endo International,2006-01-01,2016-07-18
 NFLX,Netflix,2010-12-20,2012-12-24
-NFLX,"Netflix, Inc. Common Stock",2013-06-06,
+NFLX,"Netflix, Inc.",2013-06-06,
 NIHD,NII Holdings,2006-01-01,2011-12-19
 NLOK,NortonLifeLock,2006-01-01,2019-12-23
 NLTI,NTL Incorporated,2006-01-01,2007-08-27
@@ -203,40 +203,40 @@ NTAP,NetApp,2006-01-01,2016-12-19
 NTAP,NetApp,2018-12-24,2020-08-24
 NTES,NetEase,2016-03-16,2022-12-19
 NUAN,Nuance Communications,2011-12-19,2013-12-23
-NVDA,NVIDIA Corporation Common Stock,2006-01-01,
+NVDA,NVIDIA Corporation,2006-01-01,
 NWSA,News Corporation Class A,2009-01-20,
 NXPI,NXP Semiconductors,2013-12-23,2017-02-07
-NXPI,NXP Semiconductors N.V. Common Stock,2018-11-05,
-ODFL,"Old Dominion Freight Line, Inc. Common Stock",2022-01-24,
+NXPI,NXP Semiconductors N.V,2018-11-05,
+ODFL,"Old Dominion Freight Line, Inc.",2022-01-24,
 OKTA,Okta,2020-12-21,2022-11-21
 ON,Onsemi,2023-06-20,2025-12-22
 ORCL,Oracle,2006-01-01,2013-07-15
-ORLY,"O'Reilly Automotive, Inc. Common Stock",2008-12-22,
-PANW,"Palo Alto Networks, Inc. Common Stock",2021-12-20,
-PAYX,"Paychex, Inc. Common Stock",2006-01-01,
-PCAR,PACCAR Inc. Common Stock,2006-01-01,
+ORLY,"O'Reilly Automotive, Inc.",2008-12-22,
+PANW,"Palo Alto Networks, Inc.",2021-12-20,
+PAYX,"Paychex, Inc.",2006-01-01,
+PCAR,PACCAR Inc.,2006-01-01,
 PDCO,Patterson Companies,2006-01-01,2010-12-20
 PDD,PDD Holdings Inc. American Depositary Shares,2020-08-24,
-PEP,"PepsiCo, Inc. Common Stock",2018-07-23,
+PEP,"PepsiCo, Inc.",2018-07-23,
 PETM,PetSmart,2006-01-01,2008-12-22
-PLTR,Palantir Technologies Inc. Class A Common Stock,2024-12-23,
+PLTR,Palantir Technologies Inc. Class A,2024-12-23,
 PPDI,Pharmaceutical Product Development,2008-12-22,2009-12-21
 PRGO,Perrigo,2011-12-06,2013-06-06
 PTEN,Patterson-UTI Energy,2006-01-01,2007-12-24
 PTON,Peloton,2020-12-21,2022-01-24
-PYPL,"PayPal Holdings, Inc. Common Stock",2015-11-11,
-QCOM,QUALCOMM Incorporated Common Stock,2006-01-01,
+PYPL,"PayPal Holdings, Inc.",2015-11-11,
+QCOM,QUALCOMM Incorporated,2006-01-01,
 QGEN,Qiagen,2009-12-21,2011-12-19
 QRTEA,Qurate Retail,2006-01-01,2018-12-24
-REGN,"Regeneron Pharmaceuticals, Inc. Common Stock",2012-12-24,
+REGN,"Regeneron Pharmaceuticals, Inc.",2012-12-24,
 RIMM,Research in Motion,2006-01-01,2012-12-24
 RIVN,Rivian Automotive,2022-12-19,2023-06-20
-ROP,"Roper Technologies, Inc. Common Stock",2023-12-18,
+ROP,"Roper Technologies, Inc.",2023-12-18,
 ROST,Ross Stores,2006-01-01,2007-12-24
-ROST,"Ross Stores, Inc. Common Stock",2008-12-22,
+ROST,"Ross Stores, Inc.",2008-12-22,
 RYAAY,Ryanair,2007-02-14,2009-12-21
 SBAC,SBA Communications,2012-12-24,2017-03-20
-SBUX,Starbucks Corporation Common Stock,2006-01-01,
+SBUX,Starbucks Corporation,2006-01-01,
 SEPR,Sepracor,2006-01-01,2007-12-24
 SGEN,Seattle Genetics,2019-12-23,2023-12-14
 SHLD,Sears Holdings,2006-01-01,2013-12-23
@@ -248,8 +248,8 @@ SIRI,Sirius XM Radio,2011-07-15,2024-06-24
 SMCI,Supermicro,2024-07-22,2024-12-23
 SNDK,SanDisk,2006-01-01,2008-12-22
 SNDK,SanDisk,2009-12-21,2016-03-16
-SNDK,Sandisk Corporation Common Stock,2026-04-20,
-SNPS,"Synopsys, Inc. Common Stock",2017-12-18,
+SNDK,Sandisk Corporation,2026-04-20,
+SNPS,"Synopsys, Inc.",2017-12-18,
 SOLS,Solstice Advanced Materials,2025-10-30,2025-11-06
 SPLK,Splunk,2019-12-23,2022-12-19
 SPLK,Splunk,2023-12-18,2024-03-18
@@ -266,15 +266,15 @@ TCOM,Trip.com,2006-01-01,2021-12-20
 TEAM,Atlassian,2020-12-21,2026-04-20
 TEVA,Teva Pharmaceutical Industries,2006-01-01,2012-05-30
 TLAB,Tellabs,2006-01-01,2008-05-19
-TMUS,"T-Mobile US, Inc. Common Stock",2015-12-21,
+TMUS,"T-Mobile US, Inc.",2015-12-21,
 TRI,Thomson Reuters Corporation Common Shares,2025-07-28,
 TRIP,TripAdvisor,2013-12-23,2017-04-24
 TSCO,Tractor Supply Company,2013-12-23,2017-12-18
-TSLA,"Tesla, Inc. Common Stock",2013-07-15,
+TSLA,"Tesla, Inc.",2013-07-15,
 TTD,The Trade Desk,2023-07-17,2025-12-22
 TTWO,Take-Two Interactive,2017-12-18,2020-12-21
-TTWO,"Take-Two Interactive Software, Inc. Common Stock",2023-12-14,
-TXN,Texas Instruments Incorporated Common Stock,2012-04-23,
+TTWO,"Take-Two Interactive Software, Inc.",2023-12-14,
+TXN,Texas Instruments Incorporated,2012-04-23,
 UAL,United Continental Holdings,2018-12-24,2020-06-22
 UAUA,UAL Corporation,2007-03-08,2008-07-21
 ULTA,Ulta Beauty,2015-12-21,2020-12-21
@@ -284,30 +284,30 @@ VIP,VimpelCom,2013-10-29,2015-12-21
 VMED,Virgin Media,2007-08-27,2008-12-22
 VMED,Virgin Media,2009-12-21,2013-06-05
 VOD,Vodafone,2009-12-21,2018-12-24
-VRSK,"Verisk Analytics, Inc. Common Stock",2012-12-24,
+VRSK,"Verisk Analytics, Inc.",2012-12-24,
 VRSN,VeriSign,2006-01-01,2012-12-24
 VRSN,Verisign,2018-12-24,2022-12-19
-VRTX,Vertex Pharmaceuticals Incorporated Common Stock,2006-01-01,
+VRTX,Vertex Pharmaceuticals Incorporated,2006-01-01,
 VSNT,Versant,2026-01-05,2026-01-09
 WBA,Walgreens Boots Alliance,2015-03-23,2024-07-22
-WBD,"Warner Bros. Discovery, Inc. Series A Common Stock",2022-12-19,
+WBD,"Warner Bros. Discovery, Inc. Series A",2022-12-19,
 WCRX,Warner Chilcott,2008-12-22,2012-12-24
-WDAY,"Workday, Inc. Class A Common Stock",2017-12-18,
+WDAY,"Workday, Inc. Class A",2017-12-18,
 WDC,Western Digital,2012-12-24,2020-10-19
-WDC,Western Digital Corporation Common Stock,2025-12-22,
+WDC,Western Digital Corporation,2025-12-22,
 WFM,Whole Foods Market,2006-01-01,2016-12-19
 WFMI,Whole Foods Market,2006-01-01,2008-12-22
 WFMI,Whole Foods Market,2010-12-20,
 WLTW,Willis Towers Watson,2018-12-24,
-WMT,Walmart Inc. Common Stock,2026-01-20,
+WMT,Walmart Inc.,2026-01-20,
 WTW,Willis Towers Watson,2006-01-01,2020-04-30
 WYNN,Wynn Resorts,2006-01-01,2015-12-21
 WYNN,Wynn Resorts,2017-04-24,2019-12-23
-XEL,Xcel Energy Inc. Common Stock,2018-11-19,
+XEL,Xcel Energy Inc.,2018-11-19,
 XLNX,Xilinx,2006-01-01,2022-02-22
 XMSR,XM Satellite Radio,2006-01-01,2007-12-24
 XRAY,Dentsply,2006-01-01,2013-12-23
 XRAY,Dentsply Sirona,2016-06-20,2018-11-19
 YHOO,Yahoo! Inc.,2006-01-01,2017-06-19
 ZM,Zoom Video Communications,2020-04-30,2023-12-18
-ZS,"Zscaler, Inc. Common Stock",2021-12-20,
+ZS,"Zscaler, Inc.",2021-12-20,
