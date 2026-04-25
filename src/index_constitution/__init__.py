@@ -6,6 +6,7 @@ Embedded datasets:
 - ``csi500``     — CSI 500 (Shanghai/Shenzhen)
 - ``sp500``      — S&P 500
 - ``nasdaq100``  — NASDAQ-100
+- ``dow30``      — Dow Jones Industrial Average
 
 Two flavors per index:
 
@@ -35,7 +36,7 @@ __all__ = [
 
 __version__ = "0.1.0"
 
-INDICES: tuple[str, ...] = ("csi300", "csi500", "sp500", "nasdaq100")
+INDICES: tuple[str, ...] = ("csi300", "csi500", "sp500", "nasdaq100", "dow30")
 
 Flavor = Literal["latest", "history"]
 DateLike = Union[str, date, datetime, pd.Timestamp]

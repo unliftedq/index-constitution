@@ -16,22 +16,7 @@ This repo collects and normalizes that information into plain CSV files so it ca
 | CSI 500 | 500 mid-cap A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) |
 | S&P 500 | 500 leading large-cap U.S. companies listed on U.S. exchanges | [Wikipedia: List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) |
 | NASDAQ-100 | 100 largest non-financial companies listed on the Nasdaq Stock Market | [Wikipedia: NASDAQ-100](https://en.wikipedia.org/wiki/Nasdaq-100) |
-
-## Structure
-
-```text
-src/index_constitution/_data/
-    history/
-        csi300.csv
-        csi500.csv
-        nasdaq100.csv
-        sp500.csv
-    latest/
-        csi300.csv
-        csi500.csv
-        nasdaq100.csv
-        sp500.csv
-```
+| Dow Jones Industrial Average | 30 large U.S. blue-chip companies in the Dow Jones Industrial Average | [Wikipedia: Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average) and [Wikipedia: Historical components of the Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average) |
 
 ## Python package
 
@@ -49,9 +34,10 @@ Usage:
 ```python
 import index_constitution as ic
 
-ic.list_indices()                    # ['csi300', 'csi500', 'sp500', 'nasdaq100']
+ic.list_indices()                    # ['csi300', 'csi500', 'sp500', 'nasdaq100', 'dow30']
 
 ic.latest("sp500")                   # current S&P 500 members
+ic.latest("dow30")                   # current Dow 30 members
 ic.history("csi300")                 # full CSI 300 history with opt-in/opt-out
 ic.constituents_at("sp500", "2015-06-30")   # point-in-time membership
 ic.is_member("sp500", "AAPL", "2020-01-02") # True

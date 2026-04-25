@@ -1,0 +1,78 @@
+﻿symbol,name,opt-in,opt-out
+AA,Alcoa Inc.,1999-11-01,2013-09-23
+AA,Aluminum Company of America,1959-06-01,1999-11-01
+AAPL,Apple Inc.,2015-03-19,
+AIG,"American International Group, Inc.",2004-04-08,2008-09-22
+ALD,Allied-Signal Incorporated,1985-10-30,1997-03-17
+ALD,AlliedSignal Incorporated,1997-03-17,2003-01-27
+AMGN,Amgen Inc.,2020-08-31,
+AMZN,"Amazon.com, Inc.",2024-02-26,
+AXP,American Express Company,1982-08-30,
+BA,The Boeing Company,1987-03-12,
+BAC,Bank of America Corporation,2008-02-19,2013-09-23
+BS,Bethlehem Steel Corporation,1928-10-01,1997-03-17
+C,Citigroup Inc.,1999-11-01,2009-06-08
+CAT,Caterpillar Inc.,1991-05-06,
+CRM,"Salesforce, Inc.",2020-08-31,
+CSCO,"Cisco Systems, Inc.",2009-06-08,
+CVX,Chevron Corporation,1985-10-30,1999-11-01
+CVX,Chevron Corporation,2008-02-19,
+DD,E.I. du Pont de Nemours & Company,1935-11-20,2017-09-01
+DIS,The Walt Disney Company,1991-05-06,
+DOW,Dow Inc.,2019-04-02,2024-11-08
+DWDP,DowDuPont Inc.,2017-09-01,2019-04-02
+EK,Eastman Kodak Company,1930-07-18,2004-04-08
+GE,General Electric Company,1907-11-07,2018-06-26
+GM,General Motors Corporation,1925-08-31,2009-06-08
+GS,"The Goldman Sachs Group, Inc.",2013-09-23,
+GT,Goodyear Tire and Rubber Company,1930-07-18,1999-11-01
+HD,"The Home Depot, Inc.",1999-11-01,
+HON,Honeywell International,2003-01-27,2005-11-21
+HON,Honeywell International Inc.,2005-11-21,2008-02-19
+HON,Honeywell International Inc.,2020-08-31,
+HPQ,Hewlett-Packard Company,2002-05-06,2013-09-23
+HWP,Hewlett-Packard Company,1997-03-17,2002-05-06
+IBM,International Business Machines Corporation,1979-06-29,
+INTC,Intel Corporation,1999-11-01,2024-11-08
+IP,International Paper Company,1956-07-03,2004-04-08
+JNJ,Johnson & Johnson,1997-03-17,
+JPM,J.P. Morgan & Company,1991-05-06,2003-01-27
+JPM,JPMorgan Chase & Co.,2003-01-27,
+KFT,Kraft Foods Inc .,2008-09-22,2009-06-08
+KFT,Kraft Foods Inc.,2009-06-08,2012-09-24
+KO,The Coca-Cola Company,1987-03-12,
+MCD,McDonald's Corporation,1985-10-30,
+MMM,3M Company,2003-01-27,
+MMM,Minnesota Mining & Manufacturing Company,1976-08-09,2003-01-27
+MO,Altria Group Incorporated,2004-04-08,2008-02-19
+MO,"Altria Group, Incorporated",2003-01-27,2004-04-08
+MRK,"Merck & Co., Inc.",1979-06-29,
+MSFT,Microsoft Corporation,1999-11-01,
+NKE,"Nike, Inc.",2013-09-23,
+NVDA,Nvidia Corporation,2024-11-08,
+PFE,Pfizer Inc.,2004-04-08,2020-08-31
+PG,The Procter & Gamble Company,1932-05-26,
+PM,Philip Morris Companies Inc.,1985-10-30,2003-01-27
+RTX,Raytheon Technologies Corporation,2020-04-06,2020-08-31
+S,Sears Roebuck & Company,1924-01-22,1999-11-01
+SBC,SBC Communications Inc.,1999-11-01,2005-11-21
+SHW,The Sherwin-Williams Company,2024-11-08,
+T,AT&T Corporation,1991-05-06,2004-04-08
+T,AT&T Inc.,2005-11-21,2015-03-19
+TRV,"The Travelers Companies, Inc.",2009-06-08,
+TRV,Travelers Inc.,1997-03-17,1999-11-01
+TX,Texaco Incorporated,1959-06-01,1997-03-17
+UCC,Union Carbide Corporation,1928-10-01,1999-11-01
+UNH,UnitedHealth Group Inc.,2013-09-23,2018-06-26
+UNH,UnitedHealth Group Incorporated,2012-09-24,2013-09-23
+UNH,UnitedHealth Group Incorporated,2018-06-26,
+UTX,United Technologies Corporation,1976-08-09,2020-04-06
+V,Visa Inc.,2013-09-23,
+VZ,Verizon Communications Inc.,2004-04-08,
+WBA,"Walgreens Boots Alliance, Inc.",2018-06-26,2024-02-26
+WMT,"Wal-Mart Stores, Inc.",1997-03-17,2018-06-26
+WMT,Walmart Inc.,2018-06-26,
+WX,Westinghouse Electric Corporation,1928-10-01,1997-03-17
+XOM,Exxon Mobil Corporation,2003-01-27,2020-08-31
+XON,Exxon Corporation,1976-08-09,2003-01-27
+Z,F. W. Woolworth Company,1924-05-12,1997-03-17
