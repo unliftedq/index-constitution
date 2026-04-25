@@ -13,6 +13,7 @@ This repo collects and normalizes that information into plain CSV files so it ca
 | Index | Description | Source |
 | --- | --- | --- |
 | CSI 300 | Top 300 A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) |
+| CSI 500 | 500 mid-cap A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) |
 | S&P 500 | 500 leading large-cap U.S. companies listed on U.S. exchanges | [Wikipedia: List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) |
 | NASDAQ-100 | 100 largest non-financial companies listed on the Nasdaq Stock Market | [Wikipedia: NASDAQ-100](https://en.wikipedia.org/wiki/Nasdaq-100) |
 
@@ -22,10 +23,12 @@ This repo collects and normalizes that information into plain CSV files so it ca
 src/index_constitution/_data/
     history/
         csi300.csv
+        csi500.csv
         nasdaq100.csv
         sp500.csv
     latest/
         csi300.csv
+        csi500.csv
         nasdaq100.csv
         sp500.csv
 ```
@@ -46,7 +49,7 @@ Usage:
 ```python
 import index_constitution as ic
 
-ic.list_indices()                    # ['csi300', 'sp500', 'nasdaq100']
+ic.list_indices()                    # ['csi300', 'csi500', 'sp500', 'nasdaq100']
 
 ic.latest("sp500")                   # current S&P 500 members
 ic.history("csi300")                 # full CSI 300 history with opt-in/opt-out

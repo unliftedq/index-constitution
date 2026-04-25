@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 
-INDICES = ("csi300", "sp500", "nasdaq100")
+INDICES = ("csi300", "csi500", "sp500", "nasdaq100")
 FLAVORS = ("latest", "history")
 PKL_PROTOCOL = 4  # readable by Python 3.4+
 

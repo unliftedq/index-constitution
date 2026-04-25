@@ -13,6 +13,7 @@
 | 指数 | 说明 | 来源 |
 | --- | --- | --- |
 | 沪深 300 | 沪深两市规模最大、流动性最好的 300 只 A 股 | 中证指数有限公司官方公告（csindex.com.cn） |
+| 中证 500 | 沪深两市中盘 A 股代表性 500 只样本股 | 中证指数有限公司官方公告（csindex.com.cn） |
 | 标普 500 | 美股市场 500 家大型上市公司 | [维基百科：List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) |
 | 纳斯达克 100 | 纳斯达克交易所 100 家最大的非金融上市公司 | [维基百科：NASDAQ-100](https://en.wikipedia.org/wiki/Nasdaq-100) |
 
@@ -21,10 +22,12 @@
 ```text
 history/
     csi300.csv
+    csi500.csv
     nasdaq100.csv
     sp500.csv
 latest/
     csi300.csv
+    csi500.csv
     nasdaq100.csv
     sp500.csv
 ```
