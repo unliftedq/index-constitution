@@ -31,6 +31,7 @@ __all__ = [
     "history",
     "constituents_at",
     "is_member",
+    "events",
     "__version__",
 ]
 
@@ -96,3 +97,30 @@ def is_member(index: str, symbol: str, when: DateLike) -> bool:
     """Return True if ``symbol`` was a constituent of ``index`` on ``when``."""
     members = constituents_at(index, when)
     return bool((members["symbol"] == symbol).any())
+
+
+def events(index: str | None = None) -> pd.DataFrame:
+    """Return ticker/name change events.
+
+    The returned DataFrame has columns ``event_date``, ``event_type``,
+    ``old_symbol``, ``new_symbol``, ``old_name``, ``new_name``,
+    ``source_url``, and ``notes``. ``event_date`` is parsed to
+    ``datetime64[ns]``. ``event_type`` is one of ``"ticker_change"`` or
+    ``"name_change"``.
+
+    Events are stored without an ``index`` column because a corporate ticker
+    or name change applies to every index that includes the company. If
+    ``index`` is provided, the result is filtered to events whose
+    ``old_symbol`` or ``new_symbol`` ever appeared in that index's history.
+
+    Note: ``is_member`` and ``constituents_at`` do not automatically resolve
+    old tickers via this table; consult ``events`` to map renamed symbols.
+    """
+    path = files(__package__).joinpath("_data", "events.pkl")
+    with path.open("rb") as fh:
+        df = pd.read_pickle(fh)
+    if index is None:
+        return df
+    hist_symbols = set(history(index)["symbol"])
+    mask = df["old_symbol"].isin(hist_symbols) | df["new_symbol"].isin(hist_symbols)
+    return df.loc[mask].reset_index(drop=True)

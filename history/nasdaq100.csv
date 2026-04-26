@@ -57,7 +57,7 @@ CHRW,C. H. Robinson Worldwide,2006-01-01,2015-12-21
 CHTR,"Charter Communications, Inc. Class A New",2013-07-25,
 CKFR,CheckFree Corporation,2006-01-01,2007-12-04
 CMCSA,Comcast Corporation Class A,2006-01-01,
-CMCSK,Comcast Corporation Class A,2014-12-22,
+CMCSK,Comcast Corporation Class A,2014-12-22,2015-12-15
 CMVT,Comverse Technology,2006-01-01,2007-02-01
 COST,Costco Wholesale Corporation,2006-01-01,
 CPRT,"Copart, Inc. (DE)",2019-12-23,
@@ -68,8 +68,6 @@ CSGP,"CoStar Group, Inc.",2022-12-19,
 CSX,CSX Corporation,2016-02-16,
 CTAS,Cintas,2006-01-01,2010-12-20
 CTAS,Cintas Corporation,2016-12-19,
-CTRP,Ctrip,2010-12-20,2012-07-23
-CTRP,Ctrip,2015-12-21,
 CTRX,Catamaran Corporation,2012-12-24,2015-07-24
 CTSH,Cognizant Technology Solutions Corporation Class A,2006-01-01,
 CTXS,Citrix Systems,2006-01-01,2020-12-21
@@ -121,8 +119,6 @@ GOLD,Randgold Resources,2011-12-19,2013-11-18
 GOOG,Alphabet Inc. Class C Capital Stock,2014-04-03,
 GOOGL,Alphabet Inc. Class A,2006-01-01,
 GRMN,Garmin,2006-01-01,2015-12-21
-HANS,Hansen Natural,2007-12-24,2009-12-21
-HANS,Hansen Natural,2011-12-19,
 HAS,Hasbro,2016-12-19,2019-12-23
 HOLX,Hologic,2007-12-24,2010-12-20
 HOLX,Hologic,2016-12-19,2018-12-24
@@ -145,7 +141,6 @@ JD,JD.com,2015-07-29,2023-12-18
 JNPR,Juniper Networks,2006-01-01,2009-10-29
 JOYG,Joy Global,2006-01-01,2011-12-06
 KDP,Keurig Dr Pepper Inc.,2020-10-19,
-KFT,Kraft Foods,2012-07-23,
 KHC,The Kraft Heinz Company,2015-07-02,
 KLAC,KLA-Tencor,2006-01-01,2016-02-16
 KLAC,KLA Corporation,2016-12-19,
@@ -179,7 +174,8 @@ MEDI,MedImmune,2006-01-01,2007-06-01
 MELI,"MercadoLibre, Inc.",2017-06-19,
 META,"Meta Platforms, Inc. Class A",2012-12-12,
 MICC,Millicom International Cellular,2006-01-01,2011-05-27
-MNST,Monster Beverage Corporation,2006-01-01,
+MNST,Monster Beverage Corporation,2007-12-24,2009-12-21
+MNST,Monster Beverage Corporation,2011-12-19,
 MNST,Monster Worldwide,2006-01-01,2008-11-10
 MPWR,"Monolithic Power Systems, Inc.",2025-12-22,
 MRNA,Moderna,2020-07-20,2024-12-23
@@ -296,8 +292,6 @@ WDAY,"Workday, Inc. Class A",2017-12-18,
 WDC,Western Digital,2012-12-24,2020-10-19
 WDC,Western Digital Corporation,2025-12-22,
 WFM,Whole Foods Market,2006-01-01,2016-12-19
-WFMI,Whole Foods Market,2006-01-01,2008-12-22
-WFMI,Whole Foods Market,2010-12-20,
 WLTW,Willis Towers Watson,2018-12-24,
 WMT,Walmart Inc.,2026-01-20,
 WTW,Willis Towers Watson,2006-01-01,2020-04-30

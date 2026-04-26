@@ -40,3 +40,56 @@ def test_unknown_index():
 
 def test_list_indices():
     assert set(ic.list_indices()) == set(ic.INDICES)
+
+
+def test_events_loads():
+    df = ic.events()
+    expected = {
+        "event_date",
+        "event_type",
+        "old_symbol",
+        "new_symbol",
+        "old_name",
+        "new_name",
+        "source_url",
+        "notes",
+    }
+    assert expected <= set(df.columns)
+    assert "index" not in df.columns
+    assert len(df) > 0
+    assert pd.api.types.is_datetime64_any_dtype(df["event_date"])
+    assert set(df["event_type"]) <= {"ticker_change", "name_change"}
+
+
+def test_events_filter_by_index():
+    sp = ic.events("sp500")
+    assert len(sp) > 0
+    sp_symbols = set(ic.history("sp500")["symbol"])
+    for _, row in sp.iterrows():
+        assert row["old_symbol"] in sp_symbols or row["new_symbol"] in sp_symbols
+
+
+def test_events_unknown_index():
+    with pytest.raises(ValueError):
+        ic.events("dax")
+
+
+def test_fb_to_meta_canonicalization():
+    sp_history = ic.history("sp500")
+    assert "FB" not in set(sp_history["symbol"])
+    assert "META" in set(sp_history["symbol"])
+
+    members_2020 = ic.constituents_at("sp500", "2020-01-02")
+    assert "META" in set(members_2020["symbol"])
+
+    # Old ticker is not auto-resolved.
+    assert ic.is_member("sp500", "FB", "2020-01-02") is False
+    assert ic.is_member("sp500", "META", "2020-01-02") is True
+
+    sp_events = ic.events("sp500")
+    fb_to_meta = sp_events[
+        (sp_events["event_type"] == "ticker_change")
+        & (sp_events["old_symbol"] == "FB")
+        & (sp_events["new_symbol"] == "META")
+    ]
+    assert len(fb_to_meta) == 1
