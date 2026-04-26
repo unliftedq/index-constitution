@@ -14,7 +14,6 @@ ACAS,American Capital,1976-07-01,2009-03-03
 ACE,Chubb,1976-07-01,2016-01-19
 ACGL,Arch Capital Group,2022-11-01,
 ACN,Accenture,2011-07-06,
-ACT,Actavis,1999-04-12,
 ADBE,Adobe Inc.,1997-05-05,
 ADCT,ADC Telecommunications,1976-07-01,2007-07-02
 ADI,Analog Devices,1999-10-12,
@@ -29,7 +28,7 @@ AES,AES Corporation,1998-10-02,
 AET,Aetna,1976-07-01,2018-12-03
 AFL,Aflac,1999-05-28,
 AGN,Allergan,1976-07-01,2015-03-23
-AGN,Allergan,1976-07-01,2020-05-12
+AGN,Allergan,1999-04-12,2020-05-12
 AIG,American International Group,1980-03-31,
 AIV,Apartment Investment & Management,1976-07-01,2020-12-21
 AIZ,Assurant,2007-04-10,
@@ -56,7 +55,7 @@ AMTM,Amentum,2024-09-30,2024-12-23
 AMZN,Amazon,2005-11-18,
 AN,Amoco,1976-07-01,1998-12-11
 AN,AutoNation,1976-07-01,2017-08-08
-ANDV,Andeavor,1976-07-01,2018-10-01
+ANDV,Andeavor,2007-09-27,2018-10-01
 ANET,Arista Networks,2018-08-28,
 ANF,Abercrombie & Fitch,1976-07-01,2013-12-23
 ANR,Alpha Natural Resources,2011-06-01,2012-10-02
@@ -70,7 +69,7 @@ APH,Amphenol,2008-09-30,
 APO,Apollo Global Management,2024-12-23,
 APOL,Apollo Education Group,1976-07-01,2013-07-01
 APP,AppLovin,2025-09-22,
-APTV,Aptiv,2012-12-24,
+APTV,Aptiv,2012-12-21,
 ARE,Alexandria Real Estate Equities,2017-03-20,
 ARES,Ares Management,2025-12-11,
 ARG,Airgas,2009-09-28,2016-05-23
@@ -111,7 +110,7 @@ BIIB,Biogen,2003-11-13,
 BIO,Bio-Rad Laboratories,2020-06-22,2024-09-23
 BJS,BJ Services,1976-07-01,2010-04-29
 BK,BNY Mellon,1995-03-31,
-BKNG,Booking Holdings,2009-11-06,
+BKNG,Booking Holdings,2009-11-03,
 BKR,Baker Hughes,2017-07-07,
 BLDR,Builders FirstSource,2023-12-18,
 BLK,BlackRock,2011-04-04,
@@ -126,7 +125,7 @@ BRO,Brown & Brown,2021-09-20,
 BS,Bethlehem Steel,1976-07-01,2000-12-05
 BSX,Boston Scientific,1995-02-24,
 BTU,Peabody Energy,1976-07-01,2014-09-20
-BUD,Anheuser Busch,1976-07-01,
+BUD,Anheuser Busch,1976-07-01,2008-11-18
 BWA,BorgWarner,2011-12-16,2025-03-24
 BX,Blackstone Inc.,2023-09-18,
 BXLT,Baxalta,2015-07-01,2016-06-03
@@ -148,8 +147,7 @@ CCE,Coca-Cola Enterprises,1976-07-01,2016-05-31
 CCI,Crown Castle,2012-03-14,
 CCK,Crown Holdings,1976-07-01,2000-12-05
 CCL,Carnival,1998-12-22,
-CCR,Countrywide Credit Industries,1997-06-17,
-CDAY,Ceridian,2021-09-20,
+CCR,Countrywide Credit Industries,1997-06-17,2008-07-01
 CDNS,Cadence Design Systems,2017-09-18,
 CDW,CDW Corporation,2019-09-23,
 CE,Celanese,2018-12-24,2025-03-24
@@ -184,7 +182,6 @@ CNC,Centene Corporation,2016-03-30,
 CNP,CenterPoint Energy,1985-07-31,
 CNX,Consol Energy,1976-07-01,2016-03-04
 COF,Capital One,1998-07-01,
-COG,Cabot Oil & Gas,2008-06-23,
 COHR,Coherent Corp.,2026-03-23,
 COIN,Coinbase,2025-05-19,
 COL,Rockwell Collins,1976-07-01,2018-12-03
@@ -198,7 +195,7 @@ COV,Covidien,2011-02-28,2015-01-27
 CPAY,Corpay,2018-06-20,
 CPB,Campbell's Company (The),1957-03-04,
 CPGX,Columbia Pipeline Group,2015-07-02,2016-07-05
-CPRI,Capri Holdings,1976-07-01,2020-05-12
+CPRI,Capri Holdings,2013-11-13,2020-05-12
 CPRT,Copart,2018-07-02,
 CPT,Camden Property Trust,2022-04-04,
 CPWR,Compuware,1998-12-11,2011-12-31
@@ -229,7 +226,7 @@ CZR,Caesars Entertainment,2021-03-22,2025-09-22
 D,Dominion Energy,2016-11-30,
 DAL,Delta Air Lines,2013-09-11,
 DASH,DoorDash,2025-03-24,
-DAY,Dayforce,1976-07-01,2026-02-09
+DAY,Dayforce,2021-09-20,2026-02-09
 DD,DuPont,1976-07-01,2017-09-01
 DD,DuPont,2019-06-03,
 DDOG,Datadog,2025-07-09,
@@ -248,7 +245,6 @@ DISCA,"Discovery, Inc.",1976-07-01,2022-04-11
 DISCK,Discovery Communications,2014-08-06,2022-04-11
 DISH,Dish Network,2017-03-13,2023-06-20
 DJ,Dow Jones,1976-07-01,2007-12-13
-DLPH,Delphi Automotive,2012-12-21,
 DLR,Digital Realty,2016-05-18,
 DLTR,Dollar Tree,2011-12-19,
 DNB,Dun & Bradstreet,1976-07-01,2017-04-05
@@ -315,7 +311,6 @@ EXR,Extra Space Storage,2016-01-19,
 F,Ford Motor Company,1957-03-04,
 FANG,Diamondback Energy,2018-12-03,
 FAST,Fastenal,2008-09-15,
-FB,Facebook,2013-12-23,
 FBHS,Fortune Brands Home & Security,2016-06-22,2022-12-19
 FCX,Freeport-McMoRan,2011-07-01,
 FDC,First Data,1976-07-01,2007-09-26
@@ -327,15 +322,14 @@ FFIV,"F5, Inc.",2010-12-20,
 FHN,First Horizon,1976-07-01,2013-06-21
 FICO,Fair Isaac,2023-03-20,
 FII,Federated Investors,1976-07-01,2013-01-02
+FI,Fiserv,2001-04-02,
 FIS,Fidelity National Information Services,2006-11-10,
-FISV,Fiserv,2001-04-02,
 FITB,Fifth Third Bancorp,1996-03-29,
 FIX,Comfort Systems USA,2025-12-22,
 FL,Foot Locker,2016-04-04,2019-08-09
 FLIR,FLIR Systems,1976-07-01,2021-05-14
 FLR,Fluor Corporation,1976-07-01,2019-06-03
 FLS,Flowserve,1976-07-01,2021-03-22
-FLT,FleetCor Technologies,2018-06-20,
 FMC,FMC Corporation,2009-08-19,2025-03-24
 FNM,Fannie Mae,1976-07-01,2008-09-12
 FOSL,Fossil,2012-04-03,2016-01-05
@@ -347,7 +341,7 @@ FRT,Federal Realty Investment Trust,2016-02-01,
 FRX,Forest Laboratories,1976-07-01,2014-07-01
 FSLR,First Solar,1976-07-01,2017-03-20
 FSLR,First Solar,2022-12-19,
-FSR,Firstar,1998-12-11,
+FSR,Firstar,1998-12-11,2001-02-27
 FTI,FMC Technologies,2009-06-05,2021-02-12
 FTNT,Fortinet,2018-10-11,
 FTR,Frontier Communications,1976-07-01,2017-03-20
@@ -411,7 +405,6 @@ HPH,Harnischfeger Industries,1976-07-01,1999-06-09
 HPQ,HP Inc.,1974-12-31,
 HRB,H&R Block,1976-07-01,2020-09-21
 HRL,Hormel Foods,2009-03-04,
-HRS,Harris Corporation,2008-09-16,
 HSIC,Henry Schein,2015-03-17,
 HSP,Hospira,1976-07-01,2015-09-02
 HST,Host Hotels & Resorts,2007-03-20,
@@ -450,15 +443,13 @@ JBL,Jabil,2023-12-18,
 JCI,Johnson Controls,2010-08-27,
 JCP,JCPenney,1976-07-01,2013-12-02
 JDSU,JDS Uniphase,2000-07-27,2013-12-23
-JEC,Jacobs Engineering Group,2007-10-26,
 JEF,Jefferies Financial Group,1976-07-01,2019-09-26
 JKHY,Jack Henry & Associates,2018-11-13,
 JNJ,Johnson & Johnson,1973-06-30,
 JNPR,Juniper Networks,2006-06-02,2025-07-09
 JNS,Janus Capital Group,1976-07-01,2011-11-18
 JNY,Jones Apparel Group,1976-07-01,2009-03-03
-JOY,Joy Global,1976-07-01,2015-10-07
-JOYG,Joy Global,2011-02-25,
+JOY,Joy Global,2011-02-25,2015-10-07
 JPM,JPMorgan Chase,1975-06-30,
 JWN,Nordstrom,1976-07-01,2020-06-22
 K,Kellanova,1976-07-01,2025-12-11
@@ -466,7 +457,6 @@ KBH,KB Home,1976-07-01,2009-12-18
 KDP,Keurig Dr Pepper,2022-06-21,
 KEY,KeyCorp,1994-03-01,
 KEYS,Keysight Technologies,2018-11-06,
-KFT,Kraft Foods,2007-03-30,2012-10-02
 KG,King Pharmaceuticals,1976-07-01,2010-12-17
 KHC,Kraft Heinz,2015-07-06,
 KIM,Kimco Realty,2006-04-04,
@@ -476,7 +466,6 @@ KMB,Kimberly-Clark,1957-03-04,
 KMI,Kinder Morgan,2012-05-25,
 KMX,CarMax,2010-06-28,2025-10-31
 KO,Coca-Cola Company (The),1957-03-04,
-KORS,Michael Kors,2013-11-13,
 KR,Kroger,1957-03-04,
 KRFT,Kraft Foods,2012-10-02,2015-07-06
 KSE,KeySpan,1976-07-01,2007-08-24
@@ -490,7 +479,7 @@ LEG,Leggett & Platt,1976-07-01,2021-12-20
 LEH,Lehman Brothers,1976-07-01,2008-09-16
 LEN,Lennar,2005-10-04,
 LH,Labcorp,2004-11-01,
-LHX,L3Harris,2008-09-22,
+LHX,L3Harris,2008-09-16,
 LIFE,Life Technologies,1976-07-01,2014-01-24
 LII,Lennox International,2024-12-23,
 LIN,Linde plc,1992-07-01,
@@ -507,7 +496,6 @@ LO,Lorillard Tobacco Company,2008-06-10,2015-06-11
 LOW,Lowe's,1984-02-29,
 LRCX,Lam Research,2012-06-29,
 LSI,LSI Corporation,1976-07-01,2014-05-08
-LUK,Leucadia National,2007-08-24,
 LULU,Lululemon Athletica,2023-10-18,
 LUMN,Lumen Technologies,1976-07-01,2023-03-20
 LUV,Southwest Airlines,1994-07-01,
@@ -531,7 +519,7 @@ MCHP,Microchip Technology,2007-09-07,
 MCK,McKesson,1976-07-01,1994-09-30
 MCK,McKesson Corporation,1999-01-13,
 MCO,Moody's Corporation,1998-07-01,
-MDLZ,Mondelez International,2012-10-02,
+MDLZ,Mondelez International,2007-03-30,
 MDP,Meredith Corp,1976-07-01,2011-01-03
 MDT,Medtronic,1986-10-31,
 MEE,Massey Energy,2008-06-23,2011-06-01
@@ -577,7 +565,7 @@ MXIM,Maxim Integrated,2018-12-03,2021-08-30
 NAVI,Navient,2014-05-01,2018-06-05
 NBL,Noble Energy,1976-07-01,2020-10-12
 NBR,Nabors Industries,1976-07-01,2015-03-23
-NCC,National City,1994-09-30,
+NCC,National City,1994-09-30,2008-12-31
 NCLH,Norwegian Cruise Line Holdings,2017-10-13,
 NCR,NCR Corporation,1976-07-01,2007-10-01
 NDAQ,"Nasdaq, Inc.",2008-10-22,
@@ -633,7 +621,6 @@ PCAR,Paccar,1980-12-31,
 PCG,Pacific Gas & Electric Company,1976-07-01,2019-01-18
 PCG,PG&E Corporation,2022-10-03,
 PCL,Plum Creek Timber,1976-07-01,2016-02-22
-PCLN,Priceline.com,2009-11-03,
 PCP,Precision Castparts Corporation,1976-07-01,2016-02-01
 PCS,MetroPCS,2009-06-29,2013-04-30
 PDCO,Patterson Companies,1976-07-01,2018-03-19
@@ -683,7 +670,6 @@ RAD,Rite Aid,1976-07-01,2000-07-27
 RAI,Reynolds American,1976-07-01,2017-07-26
 RCL,Royal Caribbean Group,2014-12-05,
 RDC,Rowan Companies,1976-07-01,2014-08-18
-RE,Everest Re,2017-06-19,
 REG,Regency Centers,2017-03-02,
 REGN,Regeneron Pharmaceuticals,2013-05-01,
 RF,Regions Financial Corporation,1998-08-28,
@@ -802,7 +788,6 @@ TSCO,Tractor Supply,2014-01-24,
 TSG,Sabre Corporation,1976-07-01,2007-03-30
 TSLA,"Tesla, Inc.",2020-12-21,
 TSN,Tyson Foods,2005-08-10,
-TSO,Tesoro Corporation,2007-09-27,
 TSS,TSYS,1976-07-01,2019-09-23
 TT,Trane Technologies,2010-11-17,
 TTD,Trade Desk (The),2025-07-18,
@@ -862,8 +847,6 @@ WFM,Whole Foods Market,1976-07-01,2017-08-29
 WFR,MEMC Electronic Materials,1976-07-01,2011-12-16
 WHR,Whirlpool Corporation,1976-07-01,2024-03-18
 WIN,Windstream Communications,1976-07-01,2015-04-07
-WLP,Wellpoint,1999-06-09,
-WLTW,Willis Towers Watson,2016-01-05,
 WM,Waste Management,1998-08-31,
 WMB,Williams Companies,1975-03-31,
 WMT,Walmart,1982-08-31,

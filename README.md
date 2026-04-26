@@ -41,7 +41,23 @@ ic.latest("dow30")                   # current Dow 30 members
 ic.history("csi300")                 # full CSI 300 history with opt-in/opt-out
 ic.constituents_at("sp500", "2015-06-30")   # point-in-time membership
 ic.is_member("sp500", "AAPL", "2020-01-02") # True
+ic.events("sp500")                   # ticker/name change audit trail
 ```
+
+### Ticker and name changes
+
+`history/*.csv` and `latest/*.csv` use the current canonical ticker and name
+for each company across the full membership span. For example, S&P 500 history
+lists Meta Platforms only as `META`, even for the period when it traded as
+`FB`. The `history/event.csv` file is the audit trail for those changes.
+
+Events are not scoped to a single index — a corporate ticker or name change
+applies to every index that includes the company. `ic.events("sp500")`
+filters the table to events whose old or new symbol ever appeared in S&P 500
+history.
+
+`is_member()` and `constituents_at()` are strict — they do not resolve old
+tickers automatically. Use `ic.events("sp500")` to map renamed symbols.
 
 ## Use Cases
 

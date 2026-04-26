@@ -1,0 +1,23 @@
+event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
+2011-08-30,ticker_change,WFMI,WFM,Whole Foods Market,Whole Foods Market,https://en.wikipedia.org/wiki/Whole_Foods_Market,Ticker changed on Nasdaq from WFMI to WFM; corporate name unchanged.
+2012-01-05,ticker_change,HANS,MNST,Hansen Natural,Monster Beverage,https://en.wikipedia.org/wiki/Monster_Beverage,Ticker changed on NYSE when Hansen Natural Corporation renamed to Monster Beverage Corporation.
+2012-10-02,ticker_change,KFT,MDLZ,Kraft Foods,Mondelez International,https://en.wikipedia.org/wiki/Mondelez_International,Ticker changed on Nasdaq when Kraft Foods Inc. renamed to Mondelez International after spinning off its North American grocery business as Kraft Foods Group (KRFT).
+2013-09-04,ticker_change,JOYG,JOY,Joy Global,Joy Global,https://en.wikipedia.org/wiki/Joy_Global,Ticker changed on NYSE from JOYG to JOY; corporate name unchanged.
+2014-12-03,ticker_change,WLP,ANTM,WellPoint,Anthem,https://en.wikipedia.org/wiki/Elevance_Health,Ticker changed on NYSE when WellPoint Inc. renamed to Anthem Inc.
+2015-06-15,ticker_change,ACT,AGN,Actavis,Allergan,https://en.wikipedia.org/wiki/Allergan_(brand),Ticker changed on NYSE when Actavis plc renamed to Allergan plc following its acquisition of the original Allergan Inc.
+2017-08-01,ticker_change,TSO,ANDV,Tesoro,Andeavor,https://en.wikipedia.org/wiki/Andeavor,Ticker changed on NYSE when Tesoro Corporation renamed to Andeavor.
+2017-12-04,ticker_change,DLPH,APTV,Delphi Automotive,Aptiv,https://en.wikipedia.org/wiki/Aptiv,Ticker changed on NYSE following spin-off of Delphi Technologies and rename of remaining business to Aptiv PLC.
+2018-02-27,ticker_change,PCLN,BKNG,Priceline Group,Booking Holdings,https://en.wikipedia.org/wiki/Booking_Holdings,Ticker changed on Nasdaq when The Priceline Group renamed to Booking Holdings.
+2018-05-25,ticker_change,LUK,JEF,Leucadia National,Jefferies Financial Group,https://en.wikipedia.org/wiki/Jefferies_Financial_Group,Ticker changed on NYSE when Leucadia National Corporation renamed to Jefferies Financial Group Inc.
+2018-12-31,ticker_change,KORS,CPRI,Michael Kors Holdings,Capri Holdings,https://en.wikipedia.org/wiki/Capri_Holdings,Ticker changed on NYSE when Michael Kors Holdings renamed to Capri Holdings Limited after acquiring Versace.
+2019-06-29,ticker_change,HRS,LHX,Harris Corporation,L3Harris Technologies,https://en.wikipedia.org/wiki/L3Harris_Technologies,Ticker changed on NYSE following the merger of Harris Corporation and L3 Technologies into L3Harris Technologies.
+2019-10-04,ticker_change,CTRP,TCOM,Ctrip.com International,Trip.com Group,https://en.wikipedia.org/wiki/Trip.com_Group,Ticker changed on Nasdaq when Ctrip.com International renamed to Trip.com Group Limited.
+2021-10-01,ticker_change,COG,CTRA,Cabot Oil & Gas,Coterra Energy,https://en.wikipedia.org/wiki/Coterra,Ticker changed on NYSE after the merger of Cabot Oil & Gas and Cimarex Energy formed Coterra Energy.
+2022-01-25,ticker_change,WLTW,WTW,Willis Towers Watson,Willis Towers Watson,https://www.wtwco.com/en-us/news/2022/01/willis-towers-watson-changes-its-ticker-symbol-to-wtw,Ticker changed on Nasdaq from WLTW to WTW; corporate name unchanged.
+2022-06-09,ticker_change,FB,META,Facebook,Meta Platforms,https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Platforms-Inc.-to-Change-Ticker-Symbol-to-META-on-June-9/default.aspx,Ticker symbol changed on Nasdaq from FB to META following the 2021 corporate rename from Facebook Inc. to Meta Platforms Inc.
+2022-06-28,ticker_change,ANTM,ELV,Anthem,Elevance Health,https://en.wikipedia.org/wiki/Elevance_Health,Ticker changed on NYSE when Anthem Inc. renamed to Elevance Health Inc.
+2022-09-08,ticker_change,JEC,J,Jacobs Engineering Group,Jacobs Solutions,https://en.wikipedia.org/wiki/Jacobs_Solutions,Ticker changed on NYSE when Jacobs Engineering Group reorganized as Jacobs Solutions.
+2023-11-08,ticker_change,RE,EG,Everest Re Group,Everest Group,https://en.wikipedia.org/wiki/Everest_Group_(insurance),Ticker changed on NYSE when Everest Re Group renamed to Everest Group Ltd.
+2024-03-25,ticker_change,FLT,CPAY,FleetCor Technologies,Corpay,https://en.wikipedia.org/wiki/Corpay,Ticker changed on NYSE when FleetCor Technologies renamed to Corpay Inc.
+2024-04-01,ticker_change,CDAY,DAY,Ceridian HCM Holding,Dayforce,https://en.wikipedia.org/wiki/Dayforce,Ticker changed on NYSE when Ceridian HCM Holding Inc. renamed to Dayforce Inc.
+2024-07-09,ticker_change,FISV,FI,Fiserv,Fiserv,https://newsroom.fiserv.com/news-releases/news-release-details/fiserv-change-its-stock-ticker-symbol-fi,Ticker changed on NYSE from FISV to FI; corporate name unchanged.

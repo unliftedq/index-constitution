@@ -24,9 +24,16 @@ def _load_csv(csv_path: Path) -> pd.DataFrame:
     return df
 
 
+def _load_events_csv(csv_path: Path) -> pd.DataFrame:
+    df = pd.read_csv(csv_path)
+    df["event_date"] = pd.to_datetime(df["event_date"])
+    return df
+
+
 def build_pickles(project_root: Path, out_dir: Path) -> list[Path]:
     """Read CSVs from ``project_root/{flavor}/{index}.csv`` and write pickles
-    to ``out_dir/{flavor}/{index}.pkl``. Returns the list of written paths.
+    to ``out_dir/{flavor}/{index}.pkl``. Also processes ``project_root/history/event.csv``
+    into ``out_dir/events.pkl``. Returns the list of written paths.
     """
     written: list[Path] = []
     for flavor in FLAVORS:
@@ -40,6 +47,15 @@ def build_pickles(project_root: Path, out_dir: Path) -> list[Path]:
             pkl_path = flavor_out / f"{index}.pkl"
             df.to_pickle(pkl_path, protocol=PKL_PROTOCOL)
             written.append(pkl_path)
+
+    events_csv = project_root / "history" / "event.csv"
+    if not events_csv.exists():
+        raise FileNotFoundError(f"Missing source CSV: {events_csv}")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    events_df = _load_events_csv(events_csv)
+    events_pkl = out_dir / "events.pkl"
+    events_df.to_pickle(events_pkl, protocol=PKL_PROTOCOL)
+    written.append(events_pkl)
     return written
 
 
