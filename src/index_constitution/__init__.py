@@ -33,6 +33,7 @@ __all__ = [
     "constituents_at",
     "is_member",
     "events",
+    "symbol_status",
     "__version__",
 ]
 
@@ -109,6 +110,93 @@ def is_member(index: str, symbol: str, when: DateLike) -> bool:
     return bool((members["symbol"] == symbol).any())
 
 
+def symbol_status(index: str, symbol: str) -> dict[str, object]:
+    """Return whether ``symbol`` is directly usable in ``index`` today.
+
+    The result distinguishes between:
+
+    - a symbol that is still current in the index,
+    - a historical symbol that maps to a usable successor ticker via ``events()``, and
+    - a historical symbol that is no longer current, including delistings with
+      no recorded successor ticker.
+
+    ``resolved_symbol`` is only populated when the event table explicitly marks a
+    still-usable successor ticker for historical lookup in this dataset.
+    """
+    hist = history(index)
+    latest_df = latest(index)
+
+    hist_match = hist.loc[hist["symbol"] == symbol]
+    latest_match = latest_df.loc[latest_df["symbol"] == symbol]
+    event_match = events(index).loc[lambda df: df["old_symbol"] == symbol]
+
+    if not latest_match.empty:
+        row = latest_match.iloc[0]
+        return {
+            "symbol": symbol,
+            "found": True,
+            "is_current": True,
+            "resolved_symbol": symbol,
+            "resolved_name": row["name"],
+            "event_type": None,
+            "event_date": None,
+            "reason": "active",
+        }
+
+    if not event_match.empty:
+        event = event_match.sort_values("event_date", kind="stable").iloc[-1]
+        if pd.isna(event["new_symbol"]) or event["new_symbol"] == "":
+            return {
+                "symbol": symbol,
+                "found": True,
+                "is_current": False,
+                "resolved_symbol": None,
+                "resolved_name": None,
+                "event_type": event["event_type"],
+                "event_date": event["event_date"],
+                "reason": "delisted",
+            }
+
+        successor = latest_df.loc[latest_df["symbol"] == event["new_symbol"]]
+        resolved_name = (
+            successor.iloc[0]["name"] if not successor.empty else event["new_name"]
+        )
+        return {
+            "symbol": symbol,
+            "found": True,
+            "is_current": False,
+            "resolved_symbol": event["new_symbol"],
+            "resolved_name": resolved_name,
+            "event_type": event["event_type"],
+            "event_date": event["event_date"],
+            "reason": "replaced",
+        }
+
+    if not hist_match.empty:
+        row = hist_match.sort_values("opt-out", kind="stable", na_position="last").iloc[-1]
+        return {
+            "symbol": symbol,
+            "found": True,
+            "is_current": False,
+            "resolved_symbol": None,
+            "resolved_name": None,
+            "event_type": None,
+            "event_date": row["opt-out"],
+            "reason": "historical_only",
+        }
+
+    return {
+        "symbol": symbol,
+        "found": False,
+        "is_current": False,
+        "resolved_symbol": None,
+        "resolved_name": None,
+        "event_type": None,
+        "event_date": None,
+        "reason": "unknown",
+    }
+
+
 def events(
     index: str | None = None,
     region: Region | None = None,
@@ -119,9 +207,12 @@ def events(
     ``old_symbol``, ``new_symbol``, ``old_name``, ``new_name``,
     ``source_url``, and ``notes``. ``event_date`` is parsed to
     ``datetime64[ns]``. ``event_type`` is one of ``"ticker_change"``,
-    ``"name_change"``, or ``"merger"`` (used for absorption/share-swap
-    mergers where the old symbol is delisted and shareholders receive
-    shares of the surviving symbol).
+    ``"name_change"``, ``"merger"``, or ``"delisting"``.
+
+    Populate ``new_symbol``/``new_name`` only when this dataset treats the new
+    ticker as the usable successor for historical lookup. Use ``"delisting"``
+    and leave ``new_symbol``/``new_name`` empty when the old ticker has been
+    retired and is no longer directly usable.
 
     Events are stored per region (``"us"`` or ``"cn"``) without an
     ``index`` column because a corporate ticker or name change applies

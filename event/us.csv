@@ -1,23 +1,133 @@
 event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
+1999-06-09,delisting,HPH,,Harnischfeger Industries,,https://en.wikipedia.org/wiki/Joy_Global,Symbol no longer queryable; removed from SP500 on 1999-06-09.
+2000-07-27,delisting,RAD,,Rite Aid,,https://en.wikipedia.org/wiki/Rite_Aid,Symbol no longer queryable; removed from SP500 on 2000-07-27.
+2000-12-05,delisting,GRA,,WR Grace,,https://en.wikipedia.org/wiki/W._R._Grace_and_Company,Symbol no longer queryable; removed from SP500 on 2000-12-05.
+2001-02-27,delisting,FSR,USB,Firstar,U.S. Bancorp,https://en.wikipedia.org/wiki/U.S._Bancorp,Firstar Corporation merged with U.S. Bancorp in 2001; FSR delisted and USB became the combined company ticker.
+2003-01-27,delisting,XON,XOM,Exxon Corporation,ExxonMobil,https://en.wikipedia.org/wiki/ExxonMobil,Exxon Corporation merged with Mobil Oil in 1999 to form ExxonMobil; XON delisted and XOM became the combined company ticker.
+2007-03-30,delisting,TSG,,Sabre Corporation,,https://en.wikipedia.org/wiki/Sabre_Corporation,Symbol no longer queryable; removed from SP500 on 2007-03-30.
+2007-08-27,delisting,NLTI,,NTL Incorporated,,https://en.wikipedia.org/wiki/NTL_Incorporated,Symbol no longer queryable; removed from NASDAQ100 on 2007-08-27.
+2007-09-26,delisting,FDC,,First Data,,https://en.wikipedia.org/wiki/First_Data,Symbol no longer queryable; removed from SP500 on 2007-09-26.
+2007-09-27,delisting,MXIM,,Maxim Integrated Products,,https://en.wikipedia.org/wiki/Maxim_Integrated,Symbol no longer queryable; removed from SP500 on 2007-09-27.
+2007-10-01,delisting,NCR,,NCR Corporation,,https://en.wikipedia.org/wiki/NCR_Corporation,Symbol no longer queryable; removed from SP500 on 2007-10-01.
+2008-07-01,delisting,CCR,,Countrywide Credit Industries,,https://en.wikipedia.org/wiki/Countrywide_Financial,Symbol no longer queryable; removed from SP500 on 2008-07-01.
+2008-12-22,delisting,DISCA,,Discovery Communications Class A,,https://en.wikipedia.org/wiki/Discovery_Inc.,Symbol no longer queryable; removed from NASDAQ100 on 2008-12-22.
+2008-12-22,delisting,LEAP,,Leap Wireless International,,https://en.wikipedia.org/wiki/Leap_Wireless_International,Symbol no longer queryable; removed from NASDAQ100 on 2008-12-22.
+2009-10-29,delisting,JNPR,,Juniper Networks,,https://en.wikipedia.org/wiki/Juniper_Networks,Symbol no longer queryable; removed from NASDAQ100 on 2009-10-29.
+2010-06-30,delisting,STR,,Questar,,https://en.wikipedia.org/wiki/Questar_Corporation,Symbol no longer queryable; removed from SP500 on 2010-06-30.
+2010-12-17,delisting,ODP,,Office Depot,,https://en.wikipedia.org/wiki/Office_Depot,Symbol no longer queryable; removed from SP500 on 2010-12-17.
+2010-12-20,delisting,DISH,,Dish Network,,https://en.wikipedia.org/wiki/Dish_Network,Symbol no longer queryable; removed from NASDAQ100 on 2010-12-20.
+2010-12-20,delisting,PDCO,,Patterson Companies,,https://en.wikipedia.org/wiki/Patterson_Companies,Symbol no longer queryable; removed from NASDAQ100 on 2010-12-20.
+2011-01-03,delisting,MDP,,Meredith Corp,,https://en.wikipedia.org/wiki/Meredith_Corporation,Symbol no longer queryable; removed from SP500 on 2011-01-03.
 2011-08-30,ticker_change,WFMI,WFM,Whole Foods Market,Whole Foods Market,https://en.wikipedia.org/wiki/Whole_Foods_Market,Ticker changed on Nasdaq from WFMI to WFM; corporate name unchanged.
+2011-12-16,delisting,AKS,,AK Steel,,https://en.wikipedia.org/wiki/AK_Steel,Symbol no longer queryable; removed from SP500 on 2011-12-16.
+2011-12-19,delisting,FLIR,,FLIR Systems,,https://en.wikipedia.org/wiki/FLIR_Systems,Symbol no longer queryable; removed from NASDAQ100 on 2011-12-19.
+2011-12-19,delisting,NIHD,,NII Holdings,,https://en.wikipedia.org/wiki/NII_Holdings,Symbol no longer queryable; removed from NASDAQ100 on 2011-12-19.
 2012-01-05,ticker_change,HANS,MNST,Hansen Natural,Monster Beverage,https://en.wikipedia.org/wiki/Monster_Beverage,Ticker changed on NYSE when Hansen Natural Corporation renamed to Monster Beverage Corporation.
 2012-10-02,ticker_change,KFT,MDLZ,Kraft Foods,Mondelez International,https://en.wikipedia.org/wiki/Mondelez_International,Ticker changed on Nasdaq when Kraft Foods Inc. renamed to Mondelez International after spinning off its North American grocery business as Kraft Foods Group (KRFT).
+2012-12-11,delisting,RRD,,RR Donnelley,,https://en.wikipedia.org/wiki/R._R._Donnelley,Symbol no longer queryable; removed from SP500 on 2012-12-11.
+2013-01-02,delisting,FII,,Federated Investors,,https://en.wikipedia.org/wiki/Federated_Hermes,Symbol no longer queryable; removed from SP500 on 2013-01-02.
+2013-02-15,delisting,BIG,,Big Lots,,https://en.wikipedia.org/wiki/Big_Lots,Symbol no longer queryable; removed from SP500 on 2013-02-15.
+2013-05-23,delisting,DF,,Dean Foods,,https://en.wikipedia.org/wiki/Dean_Foods,Symbol no longer queryable; removed from SP500 on 2013-05-23.
 2013-09-04,ticker_change,JOYG,JOY,Joy Global,Joy Global,https://en.wikipedia.org/wiki/Joy_Global,Ticker changed on NYSE from JOYG to JOY; corporate name unchanged.
+2013-12-02,delisting,JCP,,JCPenney,,https://en.wikipedia.org/wiki/JCPenney,Symbol no longer queryable; removed from SP500 on 2013-12-02.
+2013-12-23,delisting,NUAN,,Nuance Communications,,https://en.wikipedia.org/wiki/Nuance_Communications,Symbol no longer queryable; removed from NASDAQ100 on 2013-12-23.
+2014-03-21,delisting,WPX,,WPX Energy,,https://en.wikipedia.org/wiki/WPX_Energy,Symbol no longer queryable; removed from SP500 on 2014-03-21.
+2014-05-08,delisting,LSI,,LSI Corporation,,https://en.wikipedia.org/wiki/LSI_Corporation,Symbol no longer queryable; removed from SP500 on 2014-05-08.
+2014-06-20,delisting,IGT,,International Game Technology,,https://en.wikipedia.org/wiki/International_Game_Technology,Symbol no longer queryable; removed from SP500 on 2014-06-20.
+2014-07-01,delisting,FRX,,Forest Laboratories,,https://en.wikipedia.org/wiki/Forest_Laboratories,Symbol no longer queryable; removed from SP500 on 2014-07-01.
+2014-07-02,delisting,X,,United States Steel,,https://en.wikipedia.org/wiki/United_States_Steel_Corporation,Symbol no longer queryable; removed from SP500 on 2014-07-02.
+2014-08-18,delisting,RDC,,Rowan Companies,,https://en.wikipedia.org/wiki/Rowan_Companies,Symbol no longer queryable; removed from SP500 on 2014-08-18.
 2014-12-03,ticker_change,WLP,ANTM,WellPoint,Anthem,https://en.wikipedia.org/wiki/Elevance_Health,Ticker changed on NYSE when WellPoint Inc. renamed to Anthem Inc.
+2015-03-23,delisting,AGN,,Allergan,,https://en.wikipedia.org/wiki/Allergan,Symbol no longer queryable; removed from SP500 on 2015-03-23.
+2015-03-23,delisting,AVP,,Avon Products,,https://en.wikipedia.org/wiki/Avon_Products,Symbol no longer queryable; removed from SP500 on 2015-03-23.
+2015-03-23,delisting,DNR,,Denbury Resources,,https://en.wikipedia.org/wiki/Denbury_Resources,Symbol no longer queryable; removed from SP500 on 2015-03-23.
+2015-04-07,delisting,WIN,,Windstream Communications,,https://en.wikipedia.org/wiki/Windstream_Holdings,Symbol no longer queryable; removed from SP500 on 2015-04-07.
 2015-06-15,ticker_change,ACT,AGN,Actavis,Allergan,https://en.wikipedia.org/wiki/Allergan_(brand),Ticker changed on NYSE when Actavis plc renamed to Allergan plc following its acquisition of the original Allergan Inc.
+2015-07-01,delisting,QEP,,QEP Resources,,https://en.wikipedia.org/wiki/QEP_Resources,Symbol no longer queryable; removed from SP500 on 2015-07-01.
+2015-07-24,delisting,DTV,,DirecTV,,https://en.wikipedia.org/wiki/DirecTV,Symbol no longer queryable; removed from NASDAQ100 on 2015-07-24.
+2015-08-28,delisting,PLL,,Pall Corporation,,https://en.wikipedia.org/wiki/Pall_Corporation,Symbol no longer queryable; removed from SP500 on 2015-08-28.
+2015-10-07,delisting,ALTR,,Altera,,https://en.wikipedia.org/wiki/Altera,Symbol no longer queryable; removed from NASDAQ100 on 2015-10-07.
+2016-01-14,delisting,ACE,,ACE Limited,,https://en.wikipedia.org/wiki/Chubb_Limited,ACE ceased trading after completing its acquisition of Chubb Corporation; in this dataset CB is already the separate Chubb constituent rather than a successor ticker for ACE.
+2016-03-30,delisting,ESV,,Ensco,,https://en.wikipedia.org/wiki/Valaris,Symbol no longer queryable; removed from SP500 on 2016-03-30.
+2016-06-20,delisting,LMCK,,Liberty Media,,https://en.wikipedia.org/wiki/Liberty_Media,Symbol no longer queryable; removed from NASDAQ100 on 2016-06-20.
+2016-07-18,delisting,NDOI,,Endo International,,https://en.wikipedia.org/wiki/Endo_International,Symbol no longer queryable; removed from NASDAQ100 on 2016-07-18.
+2016-09-30,delisting,DO,,Diamond Offshore Drilling,,https://en.wikipedia.org/wiki/Diamond_Offshore_Drilling,Symbol no longer queryable; removed from SP500 on 2016-09-30.
+2017-03-02,delisting,ENDP,,Endo International,,https://en.wikipedia.org/wiki/Endo_International,Symbol no longer queryable; removed from SP500 on 2017-03-02.
+2017-03-20,delisting,FTR,,Frontier Communications,,https://en.wikipedia.org/wiki/Frontier_Communications,Symbol no longer queryable; removed from SP500 on 2017-03-20.
+2017-04-04,delisting,SWN,,Southwestern Energy,,https://en.wikipedia.org/wiki/Southwestern_Energy,Symbol no longer queryable; removed from SP500 on 2017-04-04.
+2017-04-05,delisting,DNB,,Dun & Bradstreet,,https://en.wikipedia.org/wiki/Dun_%26_Bradstreet,Symbol no longer queryable; removed from SP500 on 2017-04-05.
+2017-06-19,delisting,YHOO,,Yahoo!,,https://en.wikipedia.org/wiki/Yahoo!,Symbol no longer queryable; removed from SP500 on 2017-06-19.
+2017-07-26,delisting,MNK,,Mallinckrodt,,https://en.wikipedia.org/wiki/Mallinckrodt,Symbol no longer queryable; removed from SP500 on 2017-07-26.
 2017-08-01,ticker_change,TSO,ANDV,Tesoro,Andeavor,https://en.wikipedia.org/wiki/Andeavor,Ticker changed on NYSE when Tesoro Corporation renamed to Andeavor.
 2017-12-04,ticker_change,DLPH,APTV,Delphi Automotive,Aptiv,https://en.wikipedia.org/wiki/Aptiv,Ticker changed on NYSE following spin-off of Delphi Technologies and rename of remaining business to Aptiv PLC.
+2017-12-18,delisting,DISCK,,Discovery Communications Series C,,https://en.wikipedia.org/wiki/Discovery_Inc.,Symbol no longer queryable; removed from NASDAQ100 on 2017-12-18.
+2017-12-18,delisting,VIAB,,Viacom,,https://en.wikipedia.org/wiki/Viacom_(2005%E2%80%932019),Symbol no longer queryable; removed from NASDAQ100 on 2017-12-18.
 2018-02-27,ticker_change,PCLN,BKNG,Priceline Group,Booking Holdings,https://en.wikipedia.org/wiki/Booking_Holdings,Ticker changed on Nasdaq when The Priceline Group renamed to Booking Holdings.
+2018-03-19,delisting,CHK,,Chesapeake Energy,,https://en.wikipedia.org/wiki/Chesapeake_Energy,Symbol no longer queryable; removed from SP500 on 2018-03-19.
 2018-05-25,ticker_change,LUK,JEF,Leucadia National,Jefferies Financial Group,https://en.wikipedia.org/wiki/Jefferies_Financial_Group,Ticker changed on NYSE when Leucadia National Corporation renamed to Jefferies Financial Group Inc.
+2018-06-07,delisting,MON,,Monsanto,,https://en.wikipedia.org/wiki/Monsanto,Symbol no longer queryable; removed from SP500 on 2018-06-07.
+2018-09-14,delisting,XL,,XL Group,,https://en.wikipedia.org/wiki/AXA_XL,Symbol no longer queryable; removed from SP500 on 2018-09-14.
+2018-12-24,delisting,QRTEA,,Qurate Retail,,https://en.wikipedia.org/wiki/Qurate_Retail,Symbol no longer queryable; removed from NASDAQ100 on 2018-12-24.
 2018-12-31,ticker_change,KORS,CPRI,Michael Kors Holdings,Capri Holdings,https://en.wikipedia.org/wiki/Capri_Holdings,Ticker changed on NYSE when Michael Kors Holdings renamed to Capri Holdings Limited after acquiring Versace.
+2019-03-19,delisting,TCFCA,,21st Century Fox Class A,,https://en.wikipedia.org/wiki/21st_Century_Fox,Symbol no longer queryable; removed from NASDAQ100 on 2019-03-19.
+2019-03-19,delisting,TCFCB,,21st Century Fox Class B,,https://en.wikipedia.org/wiki/21st_Century_Fox,Symbol no longer queryable; removed from NASDAQ100 on 2019-03-19.
+2019-04-02,delisting,DWDP,,DowDuPont Inc.,,https://en.wikipedia.org/wiki/DowDuPont,Symbol no longer queryable; removed from DOW30 on 2019-04-02.
 2019-06-29,ticker_change,HRS,LHX,Harris Corporation,L3Harris Technologies,https://en.wikipedia.org/wiki/L3Harris_Technologies,Ticker changed on NYSE following the merger of Harris Corporation and L3 Technologies into L3Harris Technologies.
+2019-07-01,delisting,LLL,,L3 Technologies,,https://en.wikipedia.org/wiki/L3Harris_Technologies,Symbol no longer queryable; removed from SP500 on 2019-07-01.
+2019-07-15,delisting,RHT,,Red Hat,,https://en.wikipedia.org/wiki/Red_Hat,Symbol no longer queryable; removed from SP500 on 2019-07-15.
+2019-08-09,delisting,FL,,Foot Locker,,https://en.wikipedia.org/wiki/Foot_Locker,Symbol no longer queryable; removed from SP500 on 2019-08-09.
+2019-09-23,delisting,TSS,,TSYS,,https://en.wikipedia.org/wiki/TSYS,Symbol no longer queryable; removed from SP500 on 2019-09-23.
 2019-10-04,ticker_change,CTRP,TCOM,Ctrip.com International,Trip.com Group,https://en.wikipedia.org/wiki/Trip.com_Group,Ticker changed on Nasdaq when Ctrip.com International renamed to Trip.com Group Limited.
+2019-11-21,delisting,CELG,,Celgene,,https://en.wikipedia.org/wiki/Celgene,Symbol no longer queryable; removed from SP500 on 2019-11-21.
+2019-12-23,delisting,MYL,,Mylan,,https://en.wikipedia.org/wiki/Mylan,Symbol no longer queryable; removed from NASDAQ100 on 2019-12-23.
+2019-12-23,delisting,NLOK,,NortonLifeLock,,https://en.wikipedia.org/wiki/Gen_Digital,Symbol no longer queryable; removed from NASDAQ100 on 2019-12-23.
+2020-01-28,delisting,WCG,,WellCare,,https://en.wikipedia.org/wiki/WellCare,Symbol no longer queryable; removed from SP500 on 2020-01-28.
+2020-03-02,delisting,XEC,,Cimarex Energy,,https://en.wikipedia.org/wiki/Cimarex_Energy,Symbol no longer queryable; removed from SP500 on 2020-03-02.
+2020-04-01,delisting,ARNC,,Arconic,,https://en.wikipedia.org/wiki/Arconic,Symbol no longer queryable; removed from SP500 on 2020-04-01.
+2020-04-06,delisting,RTN,,Raytheon Company,,https://en.wikipedia.org/wiki/RTX_Corporation,Symbol no longer queryable; removed from SP500 on 2020-04-06.
+2020-04-06,delisting,UTX,,United Technologies Corporation,,https://en.wikipedia.org/wiki/RTX_Corporation,Symbol no longer queryable; removed from DOW30 on 2020-04-06.
+2020-06-22,delisting,ADS,,Alliance Data Systems,,https://en.wikipedia.org/wiki/Bread_Financial,Symbol no longer queryable; removed from SP500 on 2020-06-22.
+2020-06-22,delisting,JWN,,Nordstrom,,https://en.wikipedia.org/wiki/Nordstrom,Symbol no longer queryable; removed from SP500 on 2020-06-22.
+2020-10-07,delisting,ETFC,,E-Trade,,https://en.wikipedia.org/wiki/E*Trade,Symbol no longer queryable; removed from SP500 on 2020-10-07.
+2020-10-12,delisting,NBL,,Noble Energy,,https://en.wikipedia.org/wiki/Noble_Energy,Symbol no longer queryable; removed from SP500 on 2020-10-12.
+2020-12-21,delisting,CTXS,,Citrix Systems,,https://en.wikipedia.org/wiki/Citrix_Systems,Symbol no longer queryable; removed from NASDAQ100 on 2020-12-21.
+2021-01-07,delisting,TIF,,Tiffany & Co,,https://en.wikipedia.org/wiki/Tiffany_%26_Co.,Symbol no longer queryable; removed from SP500 on 2021-01-07.
+2021-01-21,delisting,CXO,,Concho Resources,,https://en.wikipedia.org/wiki/Concho_Resources,Symbol no longer queryable; removed from SP500 on 2021-01-21.
+2021-04-20,delisting,VAR,,Varian Medical Systems,,https://en.wikipedia.org/wiki/Varian_Medical_Systems,Symbol no longer queryable; removed from SP500 on 2021-04-20.
+2021-07-21,delisting,ALXN,,Alexion Pharmaceuticals,,https://en.wikipedia.org/wiki/Alexion_Pharmaceuticals,Symbol no longer queryable; removed from SP500 on 2021-07-21.
 2021-10-01,ticker_change,COG,CTRA,Cabot Oil & Gas,Coterra Energy,https://en.wikipedia.org/wiki/Coterra,Ticker changed on NYSE after the merger of Cabot Oil & Gas and Cimarex Energy formed Coterra Energy.
+2021-12-14,delisting,KSU,,Kansas City Southern,,https://en.wikipedia.org/wiki/Kansas_City_Southern,Symbol no longer queryable; removed from SP500 on 2021-12-14.
+2021-12-20,delisting,CERN,,Cerner,,https://en.wikipedia.org/wiki/Cerner,Symbol no longer queryable; removed from NASDAQ100 on 2021-12-20.
+2021-12-20,delisting,HBI,,Hanesbrands,,https://en.wikipedia.org/wiki/Hanesbrands,Symbol no longer queryable; removed from SP500 on 2021-12-20.
 2022-01-25,ticker_change,WLTW,WTW,Willis Towers Watson,Willis Towers Watson,https://www.wtwco.com/en-us/news/2022/01/willis-towers-watson-changes-its-ticker-symbol-to-wtw,Ticker changed on Nasdaq from WLTW to WTW; corporate name unchanged.
+2022-02-03,delisting,GPS,,Gap,,https://en.wikipedia.org/wiki/Gap_Inc.,Symbol no longer queryable; removed from SP500 on 2022-02-03.
+2022-02-15,delisting,XLNX,,Xilinx,,https://en.wikipedia.org/wiki/Xilinx,Symbol no longer queryable; removed from SP500 on 2022-02-15.
+2022-04-04,delisting,PBCT,,People's United Financial,,https://en.wikipedia.org/wiki/People%27s_United_Financial,Symbol no longer queryable; removed from SP500 on 2022-04-04.
 2022-06-09,ticker_change,FB,META,Facebook,Meta Platforms,https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Platforms-Inc.-to-Change-Ticker-Symbol-to-META-on-June-9/default.aspx,Ticker symbol changed on Nasdaq from FB to META following the 2021 corporate rename from Facebook Inc. to Meta Platforms Inc.
 2022-06-28,ticker_change,ANTM,ELV,Anthem,Elevance Health,https://en.wikipedia.org/wiki/Elevance_Health,Ticker changed on NYSE when Anthem Inc. renamed to Elevance Health Inc.
 2022-09-08,ticker_change,JEC,J,Jacobs Engineering Group,Jacobs Solutions,https://en.wikipedia.org/wiki/Jacobs_Solutions,Ticker changed on NYSE when Jacobs Engineering Group reorganized as Jacobs Solutions.
+2022-10-03,delisting,DRE,,Duke Realty Corp,,https://en.wikipedia.org/wiki/Duke_Realty,Symbol no longer queryable; removed from SP500 on 2022-10-03.
+2022-10-12,delisting,NLSN,,Nielsen Holdings,,https://en.wikipedia.org/wiki/Nielsen_Holdings,Symbol no longer queryable; removed from SP500 on 2022-10-12.
+2022-11-01,delisting,TWTR,,Twitter,,"https://en.wikipedia.org/wiki/Twitter,_Inc.",Symbol no longer queryable; removed from SP500 on 2022-11-01.
+2022-12-19,delisting,FBHS,,Fortune Brands Home & Security,,https://en.wikipedia.org/wiki/Fortune_Brands_Home_%26_Security,Symbol no longer queryable; removed from SP500 on 2022-12-19.
+2022-12-19,delisting,SPLK,,Splunk,,https://en.wikipedia.org/wiki/Splunk,Symbol no longer queryable; removed from NASDAQ100 on 2022-12-19.
+2022-12-22,delisting,ABMD,,Abiomed,,https://www.massdevice.com/johnson-johnson-completes-16-6b-abiomed-acquisition/,Johnson & Johnson completed its acquisition of Abiomed and ABMD ceased trading as a standalone Nasdaq-listed company.
+2023-03-15,delisting,SIVB,,SVB Financial Group,,https://en.wikipedia.org/wiki/Silicon_Valley_Bank,Symbol no longer queryable; removed from SP500 on 2023-03-15.
+2023-05-04,delisting,FRC,,First Republic Bank,,https://en.wikipedia.org/wiki/First_Republic_Bank,Symbol no longer queryable; removed from SP500 on 2023-05-04.
+2023-06-07,delisting,FI,,Fiserv,,https://en.wikipedia.org/wiki/Fiserv,Symbol no longer queryable; removed from NASDAQ100 on 2023-06-07.
+2023-07-17,delisting,ATVI,,Activision Blizzard,,https://en.wikipedia.org/wiki/Activision_Blizzard,Symbol no longer queryable; removed from NASDAQ100 on 2023-07-17.
 2023-11-08,ticker_change,RE,EG,Everest Re Group,Everest Group,https://en.wikipedia.org/wiki/Everest_Group_(insurance),Ticker changed on NYSE when Everest Re Group renamed to Everest Group Ltd.
+2023-12-14,delisting,SGEN,,Seattle Genetics,,https://en.wikipedia.org/wiki/Seagen,Symbol no longer queryable; removed from NASDAQ100 on 2023-12-14.
+2024-02-26,delisting,WBA,,"Walgreens Boots Alliance, Inc.",,https://en.wikipedia.org/wiki/Walgreens_Boots_Alliance,Symbol no longer queryable; removed from DOW30 on 2024-02-26.
 2024-03-25,ticker_change,FLT,CPAY,FleetCor Technologies,Corpay,https://en.wikipedia.org/wiki/Corpay,Ticker changed on NYSE when FleetCor Technologies renamed to Corpay Inc.
 2024-04-01,ticker_change,CDAY,DAY,Ceridian HCM Holding,Dayforce,https://en.wikipedia.org/wiki/Dayforce,Ticker changed on NYSE when Ceridian HCM Holding Inc. renamed to Dayforce Inc.
+2024-05-08,delisting,PXD,,Pioneer Natural Resources,,https://en.wikipedia.org/wiki/Pioneer_Natural_Resources,Symbol no longer queryable; removed from SP500 on 2024-05-08.
+2024-06-24,delisting,CMA,,Comerica,,https://en.wikipedia.org/wiki/Comerica,Symbol no longer queryable; removed from SP500 on 2024-06-24.
 2024-07-09,ticker_change,FISV,FI,Fiserv,Fiserv,https://newsroom.fiserv.com/news-releases/news-release-details/fiserv-change-its-stock-ticker-symbol-fi,Ticker changed on NYSE from FISV to FI; corporate name unchanged.
+2024-11-26,delisting,MRO,,Marathon Oil,,https://en.wikipedia.org/wiki/Marathon_Oil,Symbol no longer queryable; removed from SP500 on 2024-11-26.
+2024-12-23,delisting,CTLT,,Catalent,,https://en.wikipedia.org/wiki/Catalent,Symbol no longer queryable; removed from SP500 on 2024-12-23.
+2025-05-19,delisting,DFS,,Discover Financial,,https://en.wikipedia.org/wiki/Discover_Financial,Symbol no longer queryable; removed from SP500 on 2025-05-19.
+2025-07-17,delisting,ANSS,,Ansys,,https://en.wikipedia.org/wiki/Ansys,Symbol no longer queryable; removed from NASDAQ100 on 2025-07-17.
+2025-07-23,delisting,HES,,Hess Corporation,,https://en.wikipedia.org/wiki/Hess_Corporation,Symbol no longer queryable; removed from SP500 on 2025-07-23.
+2025-12-11,delisting,K,,Kellanova,,https://en.wikipedia.org/wiki/Kellanova,Symbol no longer queryable; removed from SP500 on 2025-12-11.
+2026-02-09,delisting,DAY,,Dayforce,,https://en.wikipedia.org/wiki/Dayforce,Symbol no longer queryable; removed from SP500 on 2026-02-09.

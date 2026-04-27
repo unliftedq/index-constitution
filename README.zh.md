@@ -41,15 +41,21 @@ ic.history("csi300")                 # 完整的沪深 300 历史，含 opt-in /
 ic.constituents_at("sp500", "2015-06-30")   # 任意时点成分股
 ic.is_member("sp500", "AAPL", "2020-01-02") # True
 ic.events("sp500")                   # 股票代码 / 名称变更审计记录
+ic.symbol_status("sp500", "ABMD")   # 历史 symbol 今天是否还能直接使用
 ```
 
 ### 股票代码与公司名称变更
 
 `history/*.csv` 与 `latest/*.csv` 在整个成分期跨度内统一使用各公司当前的规范代码与名称。例如，标普 500 的历史记录中 Meta Platforms 始终以 `META` 出现，即使其曾以 `FB` 交易。`event/us.csv` 与 `event/cn.csv` 是这些变更的审计记录。
 
+这种规范化对纯代码变更、名称变更最有效。当事件行填写了 `new_symbol`时，表示本数据集将该新代码视为可继续查询历史的后继 ticker。例如`FB -> META` 表示在本数据集中可以用 `META` 取得该公司的完整历史。
+
+`delisting` 则表示旧 ticker 已被废弃、不再可直接使用。这种情况下`new_symbol` 与 `new_name` 留空，因为本数据集不把任何其他 ticker 视为
+它的直接后继。例如，`ABMD` 作为历史标普 500 成分是有效的，但该代码在Johnson & Johnson 收购 Abiomed 后已不再单独交易。
+
 变更事件不局限于单一指数——某家公司的代码或名称变更会同时影响包含该公司的所有指数。`ic.events("sp500")` 会筛选出那些新旧代码曾出现在标普 500 历史中的事件。
 
-`is_member()` 与 `constituents_at()` 采用严格匹配——不会自动解析旧代码。可使用 `ic.events("sp500")` 映射变更后的代码。
+`is_member()` 与 `constituents_at()` 采用严格匹配——不会自动解析旧代码。可使用 `ic.events("sp500")` 或 `ic.symbol_status()` 判断旧代码是否映射到仍可用的后继 ticker，或只是已经退市。
 
 ## 使用场景
 
