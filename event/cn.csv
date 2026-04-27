@@ -1,8 +1,52 @@
 event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
-2015-01-26,merger,SZ000562,SZ000166,宏源证券,申万宏源,https://zh.wikipedia.org/wiki/申万宏源,Hongyuan Securities (SZ000562) absorbed by Shenyin & Wanguo to form Shenwan Hongyuan Group; SZ000166 listed on SZSE on 2015-01-26.
-2015-06-01,merger,SH601299,SH601766,中国北车,中国中车,https://zh.wikipedia.org/wiki/中国北车,CNR Corporation (SH601299) merged with CSR Corporation (SH601766) to form CRRC Corporation; SH601299 delisted from SSE on 2015-06-01 and SH601766 was renamed CRRC.
-2015-12-30,merger,SZ000024,SZ001979,招商地产,招商蛇口,https://zh.wikipedia.org/wiki/招商局蛇口工业区控股,China Merchants Property Development (SZ000024) absorbed by China Merchants Shekou Industrial Zone Holdings via share swap; SZ001979 listed on SZSE on 2015-12-30.
-2017-02-13,merger,SH600005,SH600019,武钢股份,宝钢股份,https://zh.wikipedia.org/wiki/中国宝武钢铁集团,Wuhan Iron & Steel (SH600005) absorbed by Baoshan Iron & Steel (SH600019) via share swap following formation of China Baowu Steel Group on 2016-12-01; SH600005 delisted on 2017-02-13.
-2021-09-28,merger,SH600068,SH601868,葛洲坝,中国能建,https://zh.wikipedia.org/wiki/中国能源建设,Gezhouba Group (SH600068) absorbed by China Energy Engineering (SH601868) via share swap; SH600068 delisted on 2021-09-28 and SH601868 began A-share trading.
-2025-03-04,merger,SH600837,SH601211,海通证券,国泰海通证券,https://zh.wikipedia.org/wiki/海通证券,Haitong Securities (SH600837) absorbed by Guotai Junan Securities (SH601211) which renamed to Guotai Haitong Securities; SH600837 delisted on 2025-03-04.
-2025-08-04,merger,SH601989,SH600150,中国重工,中国船舶,https://zh.wikipedia.org/wiki/中国船舶工业,China Shipbuilding Industry Corp (SH601989) absorbed by China State Shipbuilding Corp (SH600150) via share swap; SH601989 delisted on 2025-08-04.
+2006-01-01,delisting,SH600074,,*ST保千,,https://baike.baidu.com/item/保千里视像,因财务造假被监管处罚后退市；于2006-01-01调出CSI300。
+2006-06-22,delisting,SZ000666,,经纬纺机,,https://baike.baidu.com/item/经纬纺机,因并购重组并注销上市地位；于2006-06-22调出CSI300。
+2006-06-22,delisting,SH600200,,江苏吴中,,https://baike.baidu.com/item/江苏吴中,后续经营/合规问题导致退市，详见资料页；于2006-06-22调出CSI300。
+2006-06-22,delisting,SH600705,,中航产融,,https://baike.baidu.com/item/中航产融,因并购重组并注销上市地位；于2006-06-22调出CSI300。
+2007-01-01,delisting,SZ000806,,银河科技,,https://baike.baidu.com/item/银河科技,因重大债务违约及经营恶化退市；于2007-01-01调出CSI300。
+2007-01-01,delisting,SH600091,,明天科技,,https://baike.baidu.com/item/明天科技,因持续经营恶化触发退市风险后摘牌；于2007-01-01调出CSI300。
+2007-01-01,delisting,SH600652,,爱使股份,,https://baike.baidu.com/item/爱使股份,因并购重组并注销上市地位；于2007-01-01调出CSI300。
+2007-02-16,delisting,SZ000939,,凯迪电力,,https://baike.baidu.com/item/凯迪生态,因重大债务违约及经营恶化退市；于2007-02-16调出CSI300。
+2008-01-04,delisting,SH600472,,包头铝业,,https://baike.baidu.com/item/包头铝业,因并购重组并注销上市地位；于2008-01-04调出CSI300。
+2009-06-15,delisting,SZ000851,,高鸿股份,,https://baike.baidu.com/item/高鸿股份,后续经营/合规问题导致退市，详见资料页；于2009-06-15调出CSI500。
+2009-07-01,delisting,SH600747,,大连控股,,https://baike.baidu.com/item/大连控股,因持续经营恶化触发退市风险后摘牌；于2009-07-01调出CSI300。
+2009-07-01,delisting,SH600978,,宜华木业,,https://baike.baidu.com/item/宜华生活科技,因经营恶化及合规风险被实施退市；于2009-07-01调出CSI300。
+2010-01-04,delisting,SH600393,,东华实业,,https://baike.baidu.com/item/东华实业,后续经营/合规问题导致退市，详见资料页；于2010-01-04调出CSI500。
+2011-07-01,delisting,SZ000046,,泛海控股,,https://baike.baidu.com/item/泛海控股,因重大债务违约及经营恶化退市；于2011-07-01调出CSI300。
+2011-07-01,delisting,SZ000667,,名流置业,,https://baike.baidu.com/item/名流置业,因持续经营恶化触发退市风险后摘牌；于2011-07-01调出CSI300。
+2012-01-01,delisting,SH600220,,江苏阳光,,https://baike.baidu.com/item/江苏阳光,后续经营/合规问题导致退市，详见资料页；于2012-01-01调出CSI300。
+2012-01-01,delisting,SH600823,,世茂股份,,https://baike.baidu.com/item/世茂股份,因重大债务违约及经营恶化退市；于2012-01-01调出CSI300。
+2013-07-01,delisting,SH601558,,华锐风电,,https://zh.wikipedia.org/wiki/华锐风电,因持续经营恶化触发退市风险后摘牌；于2013-07-01调出CSI300。
+2013-12-16,delisting,SZ000780,,平庄能源,,https://baike.baidu.com/item/平庄能源,因并购重组并注销上市地位；于2013-12-16调出CSI300。
+2014-06-16,delisting,SH600811,,东方集团,,https://baike.baidu.com/item/东方集团,后续经营/合规问题导致退市，详见资料页；于2014-06-16调出CSI300。
+2014-12-15,delisting,SZ000961,,中南建设,,https://baike.baidu.com/item/中南建设,因重大债务违约及经营恶化退市；于2014-12-15调出CSI300。
+2015-01-26,delisting,SZ000562,SZ000166,宏源证券,申万宏源,https://zh.wikipedia.org/wiki/申万宏源,Hongyuan Securities (SZ000562) absorbed by Shenyin & Wanguo to form Shenwan Hongyuan Group; SZ000166 listed on SZSE on 2015-01-26.
+2015-06-01,delisting,SH601299,SH601766,中国北车,中国中车,https://zh.wikipedia.org/wiki/中国北车,CNR Corporation (SH601299) merged with CSR Corporation (SH601766) to form CRRC Corporation; SH601299 delisted from SSE on 2015-06-01 and SH601766 was renamed CRRC.
+2015-12-14,delisting,SH600277,,亿利能源,,https://baike.baidu.com/item/亿利洁能,后续经营/合规问题导致退市，详见资料页；于2015-12-14调出CSI300。
+2015-12-30,delisting,SZ000024,SZ001979,招商地产,招商蛇口,https://zh.wikipedia.org/wiki/招商局蛇口工业区控股,China Merchants Property Development (SZ000024) absorbed by China Merchants Shekou Industrial Zone Holdings via share swap; SZ001979 listed on SZSE on 2015-12-30.
+2016-12-12,delisting,SH600317,,营口港,,https://baike.baidu.com/item/营口港,因并购重组并注销上市地位；于2016-12-12调出CSI300。
+2017-02-13,delisting,SH600005,SH600019,武钢股份,宝钢股份,https://zh.wikipedia.org/wiki/中国宝武钢铁集团,Wuhan Iron & Steel (SH600005) absorbed by Baoshan Iron & Steel (SH600019) via share swap following formation of China Baowu Steel Group on 2016-12-01; SH600005 delisted on 2017-02-13.
+2017-06-12,delisting,SH601258,,庞大集团,,https://baike.baidu.com/item/庞大集团,因重大债务违约及经营恶化退市；于2017-06-12调出CSI300。
+2017-12-11,delisting,SZ300104,,乐视网,,https://zh.wikipedia.org/wiki/乐视网,因重大债务违约及经营恶化退市；于2017-12-11调出CSI300。
+2018-06-11,delisting,SH600485,,信威集团,,https://baike.baidu.com/item/信威集团,因重大债务违约及经营恶化退市；于2018-06-11调出CSI300。
+2018-12-17,delisting,SZ000540,,中天金融,,https://baike.baidu.com/item/中天金融,因重大债务违约及经营恶化退市；于2018-12-17调出CSI300。
+2018-12-17,delisting,SH600804,,鹏博士,,https://baike.baidu.com/item/鹏博士,因合规风险被实施退市；于2018-12-17调出CSI300。
+2019-06-17,delisting,SZ002450,,*ST康得,,https://baike.baidu.com/item/康得新,因财务造假被监管处罚后退市；于2019-06-17调出CSI300。
+2020-06-15,delisting,SZ000413,,东旭光电,,https://baike.baidu.com/item/东旭光电,因重大债务违约及经营恶化退市；于2020-06-15调出CSI300。
+2020-06-15,delisting,SZ002411,,延安必康,,https://baike.baidu.com/item/延安必康,因经营恶化及合规风险被实施退市；于2020-06-15调出CSI300。
+2021-06-11,delisting,SZ000627,,天茂集团,,https://baike.baidu.com/item/天茂集团,后续经营/合规问题导致退市，详见资料页；于2021-06-11调出CSI300。
+2021-06-11,delisting,SZ000671,,阳光城,,https://baike.baidu.com/item/阳光城集团,因重大债务违约及经营恶化退市；于2021-06-11调出CSI300。
+2021-06-11,delisting,SH600297,,广汇汽车,,https://baike.baidu.com/item/广汇汽车服务,因股价长期低于面值触及强制退市；于2021-06-11调出CSI300。
+2021-06-11,delisting,SH600291,,*ST西水,,https://baike.baidu.com/item/西水股份,因合规风险被实施退市；于2021-06-11调出CSI500。
+2021-06-11,delisting,SZ002503,,搜于特,,https://baike.baidu.com/item/搜于特,因经营恶化并触及面值退市指标摘牌；于2021-06-11调出CSI500。
+2021-09-10,delisting,SH600260,,ST凯乐,,https://baike.baidu.com/item/凯乐科技,因财务造假被监管处罚后退市；于2021-09-10调出CSI500。
+2021-09-28,delisting,SH600068,SH601868,葛洲坝,中国能建,https://zh.wikipedia.org/wiki/中国能源建设,Gezhouba Group (SH600068) absorbed by China Energy Engineering (SH601868) via share swap; SH600068 delisted on 2021-09-28 and SH601868 began A-share trading.
+2021-12-10,delisting,SZ000732,,泰禾集团,,https://baike.baidu.com/item/泰禾集团,因重大债务违约及经营恶化退市；于2021-12-10调出CSI500。
+2022-06-10,delisting,SH600466,,蓝光发展,,https://baike.baidu.com/item/蓝光发展,因重大债务违约及经营恶化退市；于2022-06-10调出CSI500。
+2022-06-10,delisting,SZ002013,,中航机电,,https://baike.baidu.com/item/中航机电,因并购重组并注销上市地位；于2022-06-10调出CSI500。
+2023-06-09,delisting,SZ002002,,鸿达兴业,,https://baike.baidu.com/item/鸿达兴业,因重大债务违约及经营恶化退市；于2023-06-09调出CSI500。
+2023-06-09,delisting,SZ300630,,普利制药,,https://baike.baidu.com/item/普利制药,后续经营/合规问题导致退市，详见资料页；于2023-06-09调出CSI500。
+2024-06-14,delisting,SZ002505,,鹏都农牧,,https://baike.baidu.com/item/鹏都农牧,因经营恶化并触及面值退市指标摘牌；于2024-06-14调出CSI500。
+2025-03-04,delisting,SH600837,SH601211,海通证券,国泰海通证券,https://zh.wikipedia.org/wiki/海通证券,Haitong Securities (SH600837) absorbed by Guotai Junan Securities (SH601211) which renamed to Guotai Haitong Securities; SH600837 delisted on 2025-03-04.
+2025-06-13,delisting,SH603056,,德邦股份,,https://zh.wikipedia.org/wiki/德邦物流,因并购重组并注销上市地位；于2025-06-13调出CSI500。
+2025-08-04,delisting,SH601989,SH600150,中国重工,中国船舶,https://zh.wikipedia.org/wiki/中国船舶工业,China Shipbuilding Industry Corp (SH601989) absorbed by China State Shipbuilding Corp (SH600150) via share swap; SH601989 delisted on 2025-08-04.

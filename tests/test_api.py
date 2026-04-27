@@ -58,7 +58,7 @@ def test_events_loads():
     assert "index" not in df.columns
     assert len(df) > 0
     assert pd.api.types.is_datetime64_any_dtype(df["event_date"])
-    assert set(df["event_type"]) <= {"ticker_change", "name_change", "merger"}
+    assert set(df["event_type"]) <= {"ticker_change", "name_change", "merger", "delisting"}
 
 
 def test_events_filter_by_index():
@@ -113,3 +113,64 @@ def test_cn_merger_events():
         & (csi300_events["new_symbol"] == "SZ001979")
     ]
     assert len(cmsk) == 1
+
+
+def test_us_merger_events():
+    sp_events = ic.events("sp500")
+
+    ace = sp_events[
+        (sp_events["event_type"] == "delisting")
+        & (sp_events["old_symbol"] == "ACE")
+    ]
+    assert len(ace) == 1
+    row = ace.iloc[0]
+    assert pd.isna(row["new_symbol"])
+    assert pd.isna(row["new_name"])
+
+    abmd = sp_events[
+        (sp_events["event_type"] == "delisting")
+        & (sp_events["old_symbol"] == "ABMD")
+    ]
+    assert len(abmd) == 1
+    row = abmd.iloc[0]
+    assert pd.isna(row["new_symbol"])
+    assert pd.isna(row["new_name"])
+
+
+def test_symbol_status_active_symbol():
+    status = ic.symbol_status("sp500", "AAPL")
+
+    assert status["found"] is True
+    assert status["is_current"] is True
+    assert status["resolved_symbol"] == "AAPL"
+    assert status["reason"] == "active"
+
+
+def test_symbol_status_merger_successors():
+    ace = ic.symbol_status("sp500", "ACE")
+    assert ace["found"] is True
+    assert ace["is_current"] is False
+    assert ace["resolved_symbol"] is None
+    assert ace["resolved_name"] is None
+    assert ace["event_type"] == "delisting"
+    assert ace["reason"] == "delisted"
+
+
+
+def test_symbol_status_delisted_symbol():
+    abmd = ic.symbol_status("sp500", "ABMD")
+    assert abmd["found"] is True
+    assert abmd["is_current"] is False
+    assert abmd["resolved_symbol"] is None
+    assert abmd["resolved_name"] is None
+    assert abmd["event_type"] == "delisting"
+    assert abmd["reason"] == "delisted"
+
+
+def test_symbol_status_unknown_symbol():
+    status = ic.symbol_status("sp500", "NOTASYMBOL")
+
+    assert status["found"] is False
+    assert status["is_current"] is False
+    assert status["resolved_symbol"] is None
+    assert status["reason"] == "unknown"

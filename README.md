@@ -42,22 +42,20 @@ ic.history("csi300")                 # full CSI 300 history with opt-in/opt-out
 ic.constituents_at("sp500", "2015-06-30")   # point-in-time membership
 ic.is_member("sp500", "AAPL", "2020-01-02") # True
 ic.events("sp500")                   # ticker/name change audit trail
+ic.symbol_status("sp500", "ABMD")   # whether a historical symbol is still directly usable
 ```
 
 ### Ticker and name changes
 
-`history/*.csv` and `latest/*.csv` use the current canonical ticker and name
-for each company across the full membership span. For example, S&P 500 history
-lists Meta Platforms only as `META`, even for the period when it traded as
-`FB`. The `event/us.csv` and `event/cn.csv` files are the audit trail for those changes.
+`history/*.csv` and `latest/*.csv` use the current canonical ticker and namefor each company across the full membership span. For example, S&P 500 historylists Meta Platforms only as `META`, even for the period when it traded as `FB`. The `event/us.csv` and `event/cn.csv` files are the audit trail for those changes.
 
-Events are not scoped to a single index — a corporate ticker or name change
-applies to every index that includes the company. `ic.events("sp500")`
-filters the table to events whose old or new symbol ever appeared in S&P 500
-history.
+This canonicalization is strongest for pure ticker/name changes. When an event row includes `new_symbol`, it means this dataset treats the new ticker as the usable successor for historical lookup. For example, `FB -> META` means you can use `META` to access the full history for that company in this dataset.
 
-`is_member()` and `constituents_at()` are strict — they do not resolve old
-tickers automatically. Use `ic.events("sp500")` to map renamed symbols.
+`delisting` means the old ticker was retired and is no longer directly usable. In that case `new_symbol` and `new_name` are left empty because this dataset does not treat any other ticker as its direct successor. For example, `ABMD` remains valid historical S&P 500 membership data, but the symbol itself stopped trading after Johnson & Johnson acquired Abiomed.
+
+Events are not scoped to a single index — a corporate ticker or name change applies to every index that includes the company. `ic.events("sp500")` filters the table to events whose old or new symbol ever appeared in S&P 500 history.
+
+`is_member()` and `constituents_at()` are strict — they do not resolve old tickers automatically. Use `ic.events("sp500")` or `ic.symbol_status()` to tell whether an old symbol maps to a usable successor ticker or is simply delisted.
 
 ## Use Cases
 
