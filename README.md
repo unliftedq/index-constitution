@@ -49,7 +49,7 @@ ic.events("sp500")                   # ticker/name change audit trail
 `history/*.csv` and `latest/*.csv` use the current canonical ticker and name
 for each company across the full membership span. For example, S&P 500 history
 lists Meta Platforms only as `META`, even for the period when it traded as
-`FB`. The `history/event.csv` file is the audit trail for those changes.
+`FB`. The `event/us.csv` and `event/cn.csv` files are the audit trail for those changes.
 
 Events are not scoped to a single index — a corporate ticker or name change
 applies to every index that includes the company. `ic.events("sp500")`

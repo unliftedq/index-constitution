@@ -58,7 +58,7 @@ def test_events_loads():
     assert "index" not in df.columns
     assert len(df) > 0
     assert pd.api.types.is_datetime64_any_dtype(df["event_date"])
-    assert set(df["event_type"]) <= {"ticker_change", "name_change"}
+    assert set(df["event_type"]) <= {"ticker_change", "name_change", "merger"}
 
 
 def test_events_filter_by_index():
@@ -93,3 +93,23 @@ def test_fb_to_meta_canonicalization():
         & (sp_events["new_symbol"] == "META")
     ]
     assert len(fb_to_meta) == 1
+
+
+def test_cn_merger_events():
+    csi300_events = ic.events("csi300")
+    # CNR (SH601299) merged into CRRC (SH601766) on 2015-06-01.
+    cnr = csi300_events[
+        (csi300_events["event_type"] == "merger")
+        & (csi300_events["old_symbol"] == "SH601299")
+        & (csi300_events["new_symbol"] == "SH601766")
+    ]
+    assert len(cnr) == 1
+
+    # China Merchants Property (SZ000024) absorbed by China Merchants Shekou
+    # (SZ001979) on 2015-12-30.
+    cmsk = csi300_events[
+        (csi300_events["event_type"] == "merger")
+        & (csi300_events["old_symbol"] == "SZ000024")
+        & (csi300_events["new_symbol"] == "SZ001979")
+    ]
+    assert len(cmsk) == 1

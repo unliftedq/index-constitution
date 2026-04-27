@@ -1,0 +1,8 @@
+event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
+2015-01-26,merger,SZ000562,SZ000166,宏源证券,申万宏源,https://zh.wikipedia.org/wiki/申万宏源,Hongyuan Securities (SZ000562) absorbed by Shenyin & Wanguo to form Shenwan Hongyuan Group; SZ000166 listed on SZSE on 2015-01-26.
+2015-06-01,merger,SH601299,SH601766,中国北车,中国中车,https://zh.wikipedia.org/wiki/中国北车,CNR Corporation (SH601299) merged with CSR Corporation (SH601766) to form CRRC Corporation; SH601299 delisted from SSE on 2015-06-01 and SH601766 was renamed CRRC.
+2015-12-30,merger,SZ000024,SZ001979,招商地产,招商蛇口,https://zh.wikipedia.org/wiki/招商局蛇口工业区控股,China Merchants Property Development (SZ000024) absorbed by China Merchants Shekou Industrial Zone Holdings via share swap; SZ001979 listed on SZSE on 2015-12-30.
+2017-02-13,merger,SH600005,SH600019,武钢股份,宝钢股份,https://zh.wikipedia.org/wiki/中国宝武钢铁集团,Wuhan Iron & Steel (SH600005) absorbed by Baoshan Iron & Steel (SH600019) via share swap following formation of China Baowu Steel Group on 2016-12-01; SH600005 delisted on 2017-02-13.
+2021-09-28,merger,SH600068,SH601868,葛洲坝,中国能建,https://zh.wikipedia.org/wiki/中国能源建设,Gezhouba Group (SH600068) absorbed by China Energy Engineering (SH601868) via share swap; SH600068 delisted on 2021-09-28 and SH601868 began A-share trading.
+2025-03-04,merger,SH600837,SH601211,海通证券,国泰海通证券,https://zh.wikipedia.org/wiki/海通证券,Haitong Securities (SH600837) absorbed by Guotai Junan Securities (SH601211) which renamed to Guotai Haitong Securities; SH600837 delisted on 2025-03-04.
+2025-08-04,merger,SH601989,SH600150,中国重工,中国船舶,https://zh.wikipedia.org/wiki/中国船舶工业,China Shipbuilding Industry Corp (SH601989) absorbed by China State Shipbuilding Corp (SH600150) via share swap; SH601989 delisted on 2025-08-04.

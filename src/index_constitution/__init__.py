@@ -25,6 +25,7 @@ import pandas as pd
 
 __all__ = [
     "INDICES",
+    "REGIONS",
     "list_indices",
     "load",
     "latest",
@@ -38,8 +39,17 @@ __all__ = [
 __version__ = "0.1.0"
 
 INDICES: tuple[str, ...] = ("csi300", "csi500", "sp500", "nasdaq100", "dow30")
+REGIONS: tuple[str, ...] = ("us", "cn")
+_INDEX_REGION: dict[str, str] = {
+    "csi300": "cn",
+    "csi500": "cn",
+    "sp500": "us",
+    "nasdaq100": "us",
+    "dow30": "us",
+}
 
 Flavor = Literal["latest", "history"]
+Region = Literal["us", "cn"]
 DateLike = Union[str, date, datetime, pd.Timestamp]
 
 
@@ -99,28 +109,62 @@ def is_member(index: str, symbol: str, when: DateLike) -> bool:
     return bool((members["symbol"] == symbol).any())
 
 
-def events(index: str | None = None) -> pd.DataFrame:
+def events(
+    index: str | None = None,
+    region: Region | None = None,
+) -> pd.DataFrame:
     """Return ticker/name change events.
 
     The returned DataFrame has columns ``event_date``, ``event_type``,
     ``old_symbol``, ``new_symbol``, ``old_name``, ``new_name``,
     ``source_url``, and ``notes``. ``event_date`` is parsed to
-    ``datetime64[ns]``. ``event_type`` is one of ``"ticker_change"`` or
-    ``"name_change"``.
+    ``datetime64[ns]``. ``event_type`` is one of ``"ticker_change"``,
+    ``"name_change"``, or ``"merger"`` (used for absorption/share-swap
+    mergers where the old symbol is delisted and shareholders receive
+    shares of the surviving symbol).
 
-    Events are stored without an ``index`` column because a corporate ticker
-    or name change applies to every index that includes the company. If
-    ``index`` is provided, the result is filtered to events whose
-    ``old_symbol`` or ``new_symbol`` ever appeared in that index's history.
+    Events are stored per region (``"us"`` or ``"cn"``) without an
+    ``index`` column because a corporate ticker or name change applies
+    to every index that includes the company.
+
+    - If ``region`` is given, only events for that region are returned.
+    - If ``index`` is given, ``region`` defaults to that index's region
+      and the result is further filtered to events whose ``old_symbol``
+      or ``new_symbol`` ever appeared in that index's history.
+    - If neither is given, events from all regions are concatenated and
+      sorted by ``event_date``.
 
     Note: ``is_member`` and ``constituents_at`` do not automatically resolve
     old tickers via this table; consult ``events`` to map renamed symbols.
     """
-    path = files(__package__).joinpath("_data", "events.pkl")
-    with path.open("rb") as fh:
-        df = pd.read_pickle(fh)
+    if region is not None and region not in REGIONS:
+        raise ValueError(
+            f"Unknown region {region!r}. Available: {', '.join(REGIONS)}"
+        )
+    if index is not None and index not in INDICES:
+        raise ValueError(
+            f"Unknown index {index!r}. Available: {', '.join(INDICES)}"
+        )
+
+    if index is not None and region is None:
+        region = _INDEX_REGION[index]  # type: ignore[assignment]
+
+    regions_to_load = (region,) if region is not None else REGIONS
+    frames = [_load_events_pkl(r) for r in regions_to_load]
+    df = (
+        pd.concat(frames, ignore_index=True)
+        .sort_values("event_date", kind="stable")
+        .reset_index(drop=True)
+    )
+
     if index is None:
         return df
     hist_symbols = set(history(index)["symbol"])
     mask = df["old_symbol"].isin(hist_symbols) | df["new_symbol"].isin(hist_symbols)
     return df.loc[mask].reset_index(drop=True)
+
+
+def _load_events_pkl(region: str) -> pd.DataFrame:
+    path = files(__package__).joinpath("_data", "event", f"{region}.pkl")
+    with path.open("rb") as fh:
+        return pd.read_pickle(fh)

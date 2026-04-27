@@ -13,6 +13,7 @@ import pandas as pd
 
 INDICES = ("csi300", "csi500", "sp500", "nasdaq100", "dow30")
 FLAVORS = ("latest", "history")
+REGIONS = ("us", "cn")
 PKL_PROTOCOL = 4  # readable by Python 3.4+
 
 
@@ -32,8 +33,9 @@ def _load_events_csv(csv_path: Path) -> pd.DataFrame:
 
 def build_pickles(project_root: Path, out_dir: Path) -> list[Path]:
     """Read CSVs from ``project_root/{flavor}/{index}.csv`` and write pickles
-    to ``out_dir/{flavor}/{index}.pkl``. Also processes ``project_root/history/event.csv``
-    into ``out_dir/events.pkl``. Returns the list of written paths.
+    to ``out_dir/{flavor}/{index}.pkl``. Also processes ``project_root/event/{region}.csv``
+    into ``out_dir/event/{region}.pkl`` for each region in ``REGIONS``.
+    Returns the list of written paths.
     """
     written: list[Path] = []
     for flavor in FLAVORS:
@@ -48,14 +50,17 @@ def build_pickles(project_root: Path, out_dir: Path) -> list[Path]:
             df.to_pickle(pkl_path, protocol=PKL_PROTOCOL)
             written.append(pkl_path)
 
-    events_csv = project_root / "history" / "event.csv"
-    if not events_csv.exists():
-        raise FileNotFoundError(f"Missing source CSV: {events_csv}")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    events_df = _load_events_csv(events_csv)
-    events_pkl = out_dir / "events.pkl"
-    events_df.to_pickle(events_pkl, protocol=PKL_PROTOCOL)
-    written.append(events_pkl)
+    event_dir = project_root / "event"
+    event_out = out_dir / "event"
+    event_out.mkdir(parents=True, exist_ok=True)
+    for region in REGIONS:
+        csv_path = event_dir / f"{region}.csv"
+        if not csv_path.exists():
+            raise FileNotFoundError(f"Missing source CSV: {csv_path}")
+        df = _load_events_csv(csv_path)
+        pkl_path = event_out / f"{region}.pkl"
+        df.to_pickle(pkl_path, protocol=PKL_PROTOCOL)
+        written.append(pkl_path)
     return written
 
 
