@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "index-constitution"
-version = "0.4.0"
+version = "0.5.0"
 description = "Point-in-time and current constituents for major stock indices (CSI 300, CSI 500, S&P 500, NASDAQ-100), packaged as pandas DataFrames."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -38,6 +38,7 @@ path = "hatch_build.py"
 [tool.hatch.build.targets.sdist]
 include = [
     "/src",
+    "/event",
     "/history",
     "/latest",
     "/build_data.py",
