@@ -114,7 +114,7 @@ event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
 2022-12-22,delisting,ABMD,,Abiomed,,https://www.massdevice.com/johnson-johnson-completes-16-6b-abiomed-acquisition/,Johnson & Johnson completed its acquisition of Abiomed and ABMD ceased trading as a standalone Nasdaq-listed company.
 2023-03-15,delisting,SIVB,,SVB Financial Group,,https://en.wikipedia.org/wiki/Silicon_Valley_Bank,Symbol no longer queryable; removed from SP500 on 2023-03-15.
 2023-05-04,delisting,FRC,,First Republic Bank,,https://en.wikipedia.org/wiki/First_Republic_Bank,Symbol no longer queryable; removed from SP500 on 2023-05-04.
-2023-06-07,delisting,FI,,Fiserv,,https://en.wikipedia.org/wiki/Fiserv,Symbol no longer queryable; removed from NASDAQ100 on 2023-06-07.
+2025-11-11,ticker_change,FI,FISV,Fiserv,Fiserv,https://finance.yahoo.com/news/fiserv-announces-transfer-stock-exchange-110300544.html,Ticker changed with listing transfer from NYSE to Nasdaq; corporate name unchanged.
 2023-07-17,delisting,ATVI,,Activision Blizzard,,https://en.wikipedia.org/wiki/Activision_Blizzard,Symbol no longer queryable; removed from NASDAQ100 on 2023-07-17.
 2023-11-08,ticker_change,RE,EG,Everest Re Group,Everest Group,https://en.wikipedia.org/wiki/Everest_Group_(insurance),Ticker changed on NYSE when Everest Re Group renamed to Everest Group Ltd.
 2023-12-14,delisting,SGEN,,Seattle Genetics,,https://en.wikipedia.org/wiki/Seagen,Symbol no longer queryable; removed from NASDAQ100 on 2023-12-14.
@@ -123,7 +123,6 @@ event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
 2024-04-01,ticker_change,CDAY,DAY,Ceridian HCM Holding,Dayforce,https://en.wikipedia.org/wiki/Dayforce,Ticker changed on NYSE when Ceridian HCM Holding Inc. renamed to Dayforce Inc.
 2024-05-08,delisting,PXD,,Pioneer Natural Resources,,https://en.wikipedia.org/wiki/Pioneer_Natural_Resources,Symbol no longer queryable; removed from SP500 on 2024-05-08.
 2024-06-24,delisting,CMA,,Comerica,,https://en.wikipedia.org/wiki/Comerica,Symbol no longer queryable; removed from SP500 on 2024-06-24.
-2024-07-09,ticker_change,FISV,FI,Fiserv,Fiserv,https://newsroom.fiserv.com/news-releases/news-release-details/fiserv-change-its-stock-ticker-symbol-fi,Ticker changed on NYSE from FISV to FI; corporate name unchanged.
 2024-11-26,delisting,MRO,,Marathon Oil,,https://en.wikipedia.org/wiki/Marathon_Oil,Symbol no longer queryable; removed from SP500 on 2024-11-26.
 2024-12-23,delisting,CTLT,,Catalent,,https://en.wikipedia.org/wiki/Catalent,Symbol no longer queryable; removed from SP500 on 2024-12-23.
 2025-05-19,delisting,DFS,,Discover Financial,,https://en.wikipedia.org/wiki/Discover_Financial,Symbol no longer queryable; removed from SP500 on 2025-05-19.
