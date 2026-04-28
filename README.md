@@ -10,13 +10,13 @@ This repo collects and normalizes that information into plain CSV files so it ca
 
 ## Datasets
 
-| Index | Description | Source |
-| --- | --- | --- |
-| CSI 300 | Top 300 A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) |
-| CSI 500 | 500 mid-cap A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) |
-| S&P 500 | 500 leading large-cap U.S. companies listed on U.S. exchanges | [Wikipedia: List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) |
-| NASDAQ-100 | 100 largest non-financial companies listed on the Nasdaq Stock Market | [Wikipedia: NASDAQ-100](https://en.wikipedia.org/wiki/Nasdaq-100) |
-| Dow Jones Industrial Average | 30 large U.S. blue-chip companies in the Dow Jones Industrial Average | [Wikipedia: Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average) and [Wikipedia: Historical components of the Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average) |
+| Index | Description | Source | Latest constituents |
+| --- | --- | --- | --- |
+| CSI 300 | Top 300 A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) | [Eastmoney: CSI 300 constituents](https://data.eastmoney.com/other/index/hs300.html) |
+| CSI 500 | 500 mid-cap A-share stocks listed on the Shanghai and Shenzhen exchanges | Official announcements from China Securities Index Co. (csindex.com.cn) | [Eastmoney: CSI 500 constituents](https://data.eastmoney.com/other/index/zz500.html) |
+| S&P 500 | 500 leading large-cap U.S. companies listed on U.S. exchanges | [Wikipedia: List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) | [Wikipedia: S&P 500 component stocks](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) |
+| NASDAQ-100 | 100 largest non-financial companies listed on the Nasdaq Stock Market | [Wikipedia: NASDAQ-100](https://en.wikipedia.org/wiki/Nasdaq-100) | [Nasdaq: NASDAQ-100 Index quotes](https://www.nasdaq.com/market-activity/quotes/nasdaq-ndx-index) |
+| Dow Jones Industrial Average | 30 large U.S. blue-chip companies in the Dow Jones Industrial Average | [Wikipedia: Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average) and [Wikipedia: Historical components of the Dow Jones Industrial Average](https://en.wikipedia.org/wiki/Historical_components_of_the_Dow_Jones_Industrial_Average) | [Wikipedia: Dow Jones Industrial Average components](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average#Components) |
 
 ## Python package
 
