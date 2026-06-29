@@ -10,6 +10,7 @@ AEOS,American Eagle Outfitters,2006-01-01,2007-03-08
 AEP,"American Electric Power Company, Inc.",2020-12-21,
 AKAM,Akamai Technologies,2006-01-01,2009-12-21
 AKAM,Akamai Technologies,2010-12-20,2017-12-18
+ALAB,"Astera Labs, Inc.",2026-06-22,
 ALGN,Align Technology,2017-10-23,2023-12-18
 ALNY,"Alnylam Pharmaceuticals, Inc.",2025-12-22,
 ALTR,Altera,2006-01-01,2015-10-07
@@ -54,7 +55,7 @@ CEPH,Cephalon,2007-06-01,2011-07-15
 CERN,Cerner,2009-07-17,2021-12-20
 CHKP,Check Point,2006-01-01,2021-12-20
 CHRW,C. H. Robinson Worldwide,2006-01-01,2015-12-21
-CHTR,"Charter Communications, Inc. Class A New",2013-07-25,
+CHTR,"Charter Communications, Inc. Class A New",2013-07-25,2026-06-22
 CKFR,CheckFree Corporation,2006-01-01,2007-12-04
 CMCSA,Comcast Corporation Class A,2006-01-01,
 CMCSK,Comcast Corporation Class A,2014-12-22,2015-12-15
@@ -62,6 +63,7 @@ CMVT,Comverse Technology,2006-01-01,2007-02-01
 COST,Costco Wholesale Corporation,2006-01-01,
 CPRT,"Copart, Inc. (DE)",2019-12-23,
 CRWD,"CrowdStrike Holdings, Inc. Class A",2021-08-26,
+CRWV,"CoreWeave, Inc.",2026-06-22,
 CSCO,"Cisco Systems, Inc (DE)",2006-01-01,
 CSGP,CoStar Group,2019-12-23,2020-07-20
 CSGP,"CoStar Group, Inc.",2022-12-19,
@@ -69,7 +71,7 @@ CSX,CSX Corporation,2016-02-16,
 CTAS,Cintas,2006-01-01,2010-12-20
 CTAS,Cintas Corporation,2016-12-19,
 CTRX,Catamaran Corporation,2012-12-24,2015-07-24
-CTSH,Cognizant Technology Solutions Corporation Class A,2006-01-01,
+CTSH,Cognizant Technology Solutions Corporation Class A,2006-01-01,2026-06-22
 CTXS,Citrix Systems,2006-01-01,2020-12-21
 DASH,"DoorDash, Inc. Class A",2023-12-18,
 DDOG,"Datadog, Inc. Class A",2021-12-20,
@@ -130,7 +132,7 @@ ILMN,Illumina,2008-12-22,2011-12-19
 ILMN,Illumina,2013-12-23,2024-12-23
 INCY,Incyte,2015-10-07,2021-12-20
 INFY,Infosys,2006-01-01,2012-12-12
-INSM,Insmed Incorporated,2025-12-22,
+INSM,Insmed Incorporated,2025-12-22,2026-06-22
 INTC,Intel Corporation,2006-01-01,
 INTU,Intuit Inc.,2006-01-01,
 ISRG,"Intuitive Surgical, Inc.",2006-01-01,
@@ -188,6 +190,7 @@ MU,"Micron Technology, Inc.",2010-12-20,
 MXIM,Maxim Integrated Products,2008-12-22,2014-12-22
 MXIM,Maxim Integrated Products,2015-12-21,2021-08-26
 MYL,Mylan,2009-12-21,2019-12-23
+NBIS,Nebius Group N.V.,2026-06-22,
 NCLH,Norwegian Cruise Line,2015-12-21,2017-12-18
 NDOI,Endo International,2006-01-01,2016-07-18
 NFLX,Netflix,2010-12-20,2012-12-24
@@ -227,6 +230,7 @@ QRTEA,Qurate Retail,2006-01-01,2018-12-24
 REGN,"Regeneron Pharmaceuticals, Inc.",2012-12-24,
 RIMM,Research in Motion,2006-01-01,2012-12-24
 RIVN,Rivian Automotive,2022-12-19,2023-06-20
+RKLB,Rocket Lab Corporation,2026-06-22,
 ROP,"Roper Technologies, Inc.",2023-12-18,
 ROST,Ross Stores,2006-01-01,2007-12-24
 ROST,"Ross Stores, Inc.",2008-12-22,
@@ -260,6 +264,7 @@ TCFCA,21st Century Fox Class A,2006-01-01,2019-03-19
 TCFCB,21st Century Fox Class B,2006-01-01,2019-03-19
 TCOM,Trip.com,2006-01-01,2021-12-20
 TEAM,Atlassian,2020-12-21,2026-04-20
+TER,"Teradyne, Inc.",2026-06-22,
 TEVA,Teva Pharmaceutical Industries,2006-01-01,2012-05-30
 TLAB,Tellabs,2006-01-01,2008-05-19
 TMUS,"T-Mobile US, Inc.",2015-12-21,
@@ -280,7 +285,7 @@ VIP,VimpelCom,2013-10-29,2015-12-21
 VMED,Virgin Media,2007-08-27,2008-12-22
 VMED,Virgin Media,2009-12-21,2013-06-05
 VOD,Vodafone,2009-12-21,2018-12-24
-VRSK,"Verisk Analytics, Inc.",2012-12-24,
+VRSK,"Verisk Analytics, Inc.",2012-12-24,2026-06-22
 VRSN,VeriSign,2006-01-01,2012-12-24
 VRSN,Verisign,2018-12-24,2022-12-19
 VRTX,Vertex Pharmaceuticals Incorporated,2006-01-01,
@@ -304,4 +309,4 @@ XRAY,Dentsply,2006-01-01,2013-12-23
 XRAY,Dentsply Sirona,2016-06-20,2018-11-19
 YHOO,Yahoo! Inc.,2006-01-01,2017-06-19
 ZM,Zoom Video Communications,2020-04-30,2023-12-18
-ZS,"Zscaler, Inc.",2021-12-20,
+ZS,"Zscaler, Inc.",2021-12-20,2026-06-22
