@@ -28,13 +28,11 @@ CPRT,"Copart, Inc. (DE)",2019-12-23
 CRWD,"CrowdStrike Holdings, Inc. Class A",2021-08-26
 CRWV,"CoreWeave, Inc.",2026-06-22
 CSCO,"Cisco Systems, Inc. (DE)",2006-01-01
-CSGP,"CoStar Group, Inc.",2022-12-19
 CSX,CSX Corporation,2016-02-16
 CTAS,Cintas Corporation,2016-12-19
 DASH,"DoorDash, Inc. Class A",2023-12-18
 DDOG,"Datadog, Inc. Class A",2021-12-20
 DXCM,"DexCom, Inc.",2020-04-20
-EA,Electronic Arts Inc.,2014-12-22
 EXC,Exelon Corporation,2019-11-21
 FANG,"Diamondback Energy, Inc.",2022-12-19
 FAST,Fastenal Company,2006-01-01
@@ -44,7 +42,8 @@ GEHC,GE HealthCare Technologies Inc.,2023-06-07
 GILD,"Gilead Sciences, Inc.",2006-01-01
 GOOG,Alphabet Inc. Class C Capital Stock,2014-04-03
 GOOGL,Alphabet Inc. Class A,2006-01-01
-HON,Honeywell International Inc.,2021-07-21
+HON,Honeywell Technologies Inc.,2021-07-21
+HONA,Honeywell Aerospace,2026-06-29
 IDXX,"IDEXX Laboratories, Inc.",2017-03-20
 INTC,Intel Corporation,2006-01-01
 INTU,Intuit Inc.,2006-01-01
@@ -53,6 +52,7 @@ KDP,Keurig Dr Pepper Inc.,2020-10-19
 KHC,The Kraft Heinz Company,2015-07-02
 KLAC,KLA Corporation,2016-12-19
 LIN,Linde plc Ordinary Shares,2024-03-18
+LITE,Lumentum Holdings Inc.,2026-05-18
 LRCX,Lam Research Corporation,2014-12-22
 MAR,Marriott International Class A,2013-11-18
 MCHP,Microchip Technology Incorporated,2016-07-18
@@ -87,6 +87,7 @@ SBUX,Starbucks Corporation,2006-01-01
 SHOP,Shopify Inc. Class A Subordinate Voting Shares,2025-05-19
 SNDK,Sandisk Corporation,2026-04-20
 SNPS,"Synopsys, Inc.",2017-12-18
+SPCX,Space Exploration Technologies Corporation,2026-07-07
 STX,Seagate Technology Holdings PLC Ordinary Shares (Ireland),2025-12-22
 TER,"Teradyne, Inc.",2026-06-22
 TMUS,"T-Mobile US, Inc.",2015-12-21
