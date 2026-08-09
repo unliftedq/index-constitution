@@ -114,6 +114,38 @@ def test_cn_merger_events():
     ]
     assert len(cmsk) == 1
 
+    # Baotou Aluminum was absorbed by Aluminum Corporation of China.
+    baotou = csi300_events[
+        (csi300_events["event_type"] == "merger")
+        & (csi300_events["old_symbol"] == "SH600472")
+        & (csi300_events["new_symbol"] == "SH601600")
+    ]
+    assert len(baotou) == 1
+
+    csi500_events = ic.events("csi500")
+    avic = csi500_events[
+        (csi500_events["event_type"] == "merger")
+        & (csi500_events["old_symbol"] == "SZ002013")
+        & (csi500_events["new_symbol"] == "SH600372")
+    ]
+    assert len(avic) == 1
+
+
+def test_cn_delisting_uses_exchange_date():
+    status = ic.symbol_status("csi300", "SH600200")
+
+    assert status["event_type"] == "delisting"
+    assert status["event_date"] == pd.Timestamp("2025-12-31")
+
+
+def test_cn_current_names_are_canonical():
+    csi300 = ic.latest("csi300").set_index("symbol")
+    csi500 = ic.latest("csi500").set_index("symbol")
+
+    assert csi300.at["SH601006", "name"] == "大秦铁路"
+    assert csi300.at["SH601211", "name"] == "国泰海通"
+    assert csi500.at["SH688347", "name"] == "华虹宏力"
+
 
 def test_us_merger_events():
     sp_events = ic.events("sp500")
