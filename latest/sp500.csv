@@ -60,12 +60,12 @@ BEN,Franklin Resources,1998-04-30
 BF.B,Brown–Forman,1982-10-31
 BG,Bunge Global,2023-03-15
 BIIB,Biogen,2003-11-13
-BK,BNY Mellon,1995-03-31
 BKNG,Booking Holdings,2009-11-03
 BKR,Baker Hughes,2017-07-07
 BLDR,Builders FirstSource,2023-12-18
 BLK,BlackRock,2011-04-04
 BMY,Bristol Myers Squibb,1957-03-04
+BNY,BNY,1995-03-31
 BR,Broadridge Financial Solutions,2018-06-18
 BRK.B,Berkshire Hathaway,2010-02-16
 BRO,Brown & Brown,2021-09-20
@@ -73,7 +73,6 @@ BSX,Boston Scientific,1995-02-24
 BX,Blackstone Inc.,2023-09-18
 BXP,"BXP, Inc.",2006-04-03
 C,Citigroup,1988-05-31
-CAG,Conagra Brands,1983-08-31
 CAH,Cardinal Health,1997-05-27
 CARR,Carrier Global,2020-04-03
 CASY,Casey's,2026-04-09
@@ -121,7 +120,6 @@ CSCO,Cisco,1993-12-01
 CSGP,CoStar Group,2022-09-19
 CSX,CSX Corporation,1957-03-04
 CTAS,Cintas,2001-03-01
-CTRA,Coterra,2008-06-23
 CTSH,Cognizant,2006-11-17
 CTVA,Corteva,2019-06-03
 CVNA,Carvana,2025-12-22
@@ -152,8 +150,8 @@ DUK,Duke Energy,1976-06-30
 DVA,DaVita,2008-07-31
 DVN,Devon Energy,2000-08-30
 DXCM,Dexcom,2020-05-12
-EA,Electronic Arts,2002-07-22
 EBAY,eBay Inc.,2002-07-22
+ECHO,EchoStar,2026-03-23
 ECL,Ecolab,1989-01-31
 ED,Consolidated Edison,1957-03-04
 EFX,Equifax,1997-06-19
@@ -187,6 +185,7 @@ FDS,FactSet,2021-12-20
 FDX,FedEx,1980-12-31
 FDXF,FedEx Freight,2026-06-02
 FE,FirstEnergy,1997-11-28
+FERG,Ferguson Enterprises,2026-08-05
 FFIV,"F5, Inc.",2010-12-20
 FICO,Fair Isaac,2023-03-20
 FIS,Fidelity National Information Services,2006-11-10
@@ -227,7 +226,8 @@ HD,Home Depot (The),1988-03-31
 HIG,Hartford (The),1957-03-04
 HII,Huntington Ingalls Industries,2018-01-03
 HLT,Hilton Worldwide,2017-06-19
-HON,Honeywell,1957-03-04
+HON,Honeywell Technologies Inc.,1957-03-04
+HONA,Honeywell Aerospace,2026-06-29
 HOOD,Robinhood Markets,2025-09-22
 HPE,Hewlett Packard Enterprise,2015-11-02
 HPQ,HP Inc.,1974-12-31
@@ -399,7 +399,6 @@ ROST,Ross Stores,2009-12-21
 RSG,Republic Services,2008-12-05
 RTX,RTX Corporation,1957-03-04
 RVTY,Revvity,1985-05-31
-SATS,EchoStar,2026-03-23
 SBAC,SBA Communications,2017-09-01
 SBUX,Starbucks,2000-06-07
 SCHW,Charles Schwab Corporation,1997-06-02
@@ -465,6 +464,7 @@ UPS,United Parcel Service,2002-07-22
 URI,United Rentals,2014-09-20
 USB,U.S. Bancorp,1999-11-01
 V,Visa Inc.,2009-12-21
+VEEV,Veeva Systems,2026-05-07
 VICI,Vici Properties,2022-06-08
 VLO,Valero Energy,2002-12-20
 VLTO,Veralto,2023-10-02

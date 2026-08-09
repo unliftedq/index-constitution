@@ -66,7 +66,7 @@ CRWD,"CrowdStrike Holdings, Inc. Class A",2021-08-26,
 CRWV,"CoreWeave, Inc.",2026-06-22,
 CSCO,"Cisco Systems, Inc (DE)",2006-01-01,
 CSGP,CoStar Group,2019-12-23,2020-07-20
-CSGP,"CoStar Group, Inc.",2022-12-19,
+CSGP,"CoStar Group, Inc.",2022-12-19,2026-05-18
 CSX,CSX Corporation,2016-02-16,
 CTAS,Cintas,2006-01-01,2010-12-20
 CTAS,Cintas Corporation,2016-12-19,
@@ -86,9 +86,9 @@ DOCU,DocuSign,2020-06-22,2022-12-19
 DTV,DirecTV,2008-04-30,2015-07-24
 DXCM,"DexCom, Inc.",2020-04-20,
 EA,Electronic Arts,2006-01-01,2012-12-24
-EA,Electronic Arts Inc.,2014-12-22,
+EA,Electronic Arts Inc.,2014-12-22,2026-08-04
 EBAY,EBay,2006-01-01,2023-12-18
-ENDP,Endo International,2015-12-21,
+ENDP,Endo International,2015-12-21,2016-07-18
 ENPH,Enphase Energy,2022-11-21,2023-12-18
 EQIX,Equinix,2012-12-24,2015-03-23
 ERIC,LM Ericsson,2006-01-01,2007-12-24
@@ -124,7 +124,8 @@ GRMN,Garmin,2006-01-01,2015-12-21
 HAS,Hasbro,2016-12-19,2019-12-23
 HOLX,Hologic,2007-12-24,2010-12-20
 HOLX,Hologic,2016-12-19,2018-12-24
-HON,Honeywell International Inc.,2021-07-21,
+HON,Honeywell Technologies Inc.,2021-07-21,
+HONA,Honeywell Aerospace,2026-06-29,
 HSIC,Henry Schein,2006-01-01,2019-12-23
 IACI,IAC/InterActiveCorp,2006-01-01,2009-12-21
 IDXX,"IDEXX Laboratories, Inc.",2017-03-20,
@@ -157,6 +158,7 @@ LIFE,Life Technologies,2008-12-22,2013-08-22
 LILA,Liberty Latin America Class A,2015-07-02,2015-12-21
 LILAK,Liberty Latin America Class C,2015-07-02,2015-12-21
 LIN,Linde plc Ordinary Shares,2024-03-18,
+LITE,Lumentum Holdings Inc.,2026-05-18,
 LLTC,Linear Technology,2006-01-01,2016-10-19
 LMCA,Liberty Media,2012-12-24,2013-01-15
 LMCA,Liberty Media,2013-06-05,2016-06-20
@@ -203,7 +205,7 @@ NTAP,NetApp,2018-12-24,2020-08-24
 NTES,NetEase,2016-03-16,2022-12-19
 NUAN,Nuance Communications,2011-12-19,2013-12-23
 NVDA,NVIDIA Corporation,2006-01-01,
-NWSA,News Corporation Class A,2009-01-20,
+NWSA,News Corporation Class A,2009-01-20,2013-06-28
 NXPI,NXP Semiconductors,2013-12-23,2017-02-07
 NXPI,NXP Semiconductors N.V,2018-11-05,
 ODFL,"Old Dominion Freight Line, Inc.",2022-01-24,
@@ -250,6 +252,7 @@ SNDK,SanDisk,2006-01-01,2008-12-22
 SNDK,SanDisk,2009-12-21,2016-03-16
 SNDK,Sandisk Corporation,2026-04-20,
 SNPS,"Synopsys, Inc.",2017-12-18,
+SPCX,Space Exploration Technologies Corporation,2026-07-07,
 SOLS,Solstice Advanced Materials,2025-10-30,2025-11-06
 SPLK,Splunk,2019-12-23,2022-12-19
 SPLK,Splunk,2023-12-18,2024-03-18
@@ -297,7 +300,6 @@ WDAY,"Workday, Inc. Class A",2017-12-18,
 WDC,Western Digital,2012-12-24,2020-10-19
 WDC,Western Digital Corporation,2025-12-22,
 WFM,Whole Foods Market,2006-01-01,2016-12-19
-WLTW,Willis Towers Watson,2018-12-24,
 WMT,Walmart Inc.,2026-01-20,
 WTW,Willis Towers Watson,2006-01-01,2020-04-30
 WYNN,Wynn Resorts,2006-01-01,2015-12-21

@@ -130,3 +130,6 @@ event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
 2025-07-23,delisting,HES,,Hess Corporation,,https://en.wikipedia.org/wiki/Hess_Corporation,Symbol no longer queryable; removed from SP500 on 2025-07-23.
 2025-12-11,delisting,K,,Kellanova,,https://en.wikipedia.org/wiki/Kellanova,Symbol no longer queryable; removed from SP500 on 2025-12-11.
 2026-02-09,delisting,DAY,,Dayforce,,https://en.wikipedia.org/wiki/Dayforce,Symbol no longer queryable; removed from SP500 on 2026-02-09.
+2026-05-21,ticker_change,BK,BNY,BNY Mellon,BNY,https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/bny-announces-planned-change-of-stock-ticker-symbol-to-bny-130465.html,Ticker changed on NYSE from BK to BNY; historical membership uses the current canonical ticker.
+2026-06-24,ticker_change,SATS,ECHO,EchoStar,EchoStar,https://ir.echostar.com/news-releases/news-release-details/echostar-changing-stocker-ticker-sats-echo-marking-companys-next,Ticker changed on Nasdaq from SATS to ECHO; corporate name unchanged.
+2026-06-29,name_change,HON,,Honeywell International Inc.,Honeywell Technologies Inc.,https://press.spglobal.com/2026-06-23-Alphabet-Set-to-Join-and-Honeywell-International-to-Remain-in-Dow-Jones-Industrial-Average,Honeywell parent renamed after spinning off Honeywell Aerospace; ticker HON remained unchanged.

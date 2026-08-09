@@ -109,7 +109,6 @@ BIG,Big Lots,1976-07-01,2013-02-15
 BIIB,Biogen,2003-11-13,
 BIO,Bio-Rad Laboratories,2020-06-22,2024-09-23
 BJS,BJ Services,1976-07-01,2010-04-29
-BK,BNY Mellon,1995-03-31,
 BKNG,Booking Holdings,2009-11-03,
 BKR,Baker Hughes,2017-07-07,
 BLDR,Builders FirstSource,2023-12-18,
@@ -118,6 +117,7 @@ BMC,BMC Software,1976-07-01,2013-09-10
 BMS,Bemis Company,1976-07-01,2014-12-05
 BMS,Bemis,2019-06-07,2019-06-11
 BMY,Bristol Myers Squibb,1957-03-04,
+BNY,BNY,1995-03-31,
 BR,Broadridge Financial Solutions,2018-06-18,
 BRCM,Broadcom Corporation,1976-07-01,2016-02-01
 BRK.B,Berkshire Hathaway,2010-02-16,
@@ -132,7 +132,7 @@ BXLT,Baxalta,2015-07-01,2016-06-03
 BXP,"BXP, Inc.",2006-04-03,
 C,Citigroup,1988-05-31,
 CA,CA Technologies,1976-07-01,2018-11-06
-CAG,Conagra Brands,1983-08-31,
+CAG,Conagra Brands,1983-08-31,2026-06-30
 CAH,Cardinal Health,1997-05-27,
 CAM,Cameron International,1976-07-01,2016-04-04
 CARR,Carrier Global,2020-04-03,
@@ -210,7 +210,7 @@ CSRA,CSRA,2015-12-01,2018-04-04
 CSX,CSX Corporation,1957-03-04,
 CTAS,Cintas,2001-03-01,
 CTLT,Catalent,2020-09-21,2024-12-23
-CTRA,Coterra,2008-06-23,
+CTRA,Coterra,2008-06-23,2026-05-07
 CTSH,Cognizant,2006-11-17,
 CTVA,Corteva,2019-06-03,
 CTX,Centex Corp.,1976-07-01,2009-08-19
@@ -268,8 +268,9 @@ DWDP,DuPont,2017-09-01,2019-06-03
 DXC,DXC Technology,2017-04-04,2023-10-03
 DXCM,Dexcom,2020-05-12,
 DYN,Dynegy,1976-07-01,2009-12-18
-EA,Electronic Arts,2002-07-22,
+EA,Electronic Arts,2002-07-22,2026-08-05
 EBAY,eBay Inc.,2002-07-22,
+ECHO,EchoStar,2026-03-23,
 ECL,Ecolab,1989-01-31,
 ED,Consolidated Edison,1957-03-04,
 EFX,Equifax,1997-06-19,
@@ -319,12 +320,13 @@ FDS,FactSet,2021-12-20,
 FDX,FedEx,1980-12-31,
 FDXF,FedEx Freight,2026-06-02,
 FE,FirstEnergy,1997-11-28,
+FERG,Ferguson Enterprises,2026-08-05,
 FFIV,"F5, Inc.",2010-12-20,
 FHN,First Horizon,1976-07-01,2013-06-21
 FICO,Fair Isaac,2023-03-20,
 FII,Federated Investors,1976-07-01,2013-01-02
 FIS,Fidelity National Information Services,2006-11-10,
-FISV,Fiserv,2001-04-02,2025-11-11
+FISV,Fiserv,2001-04-02,
 FITB,Fifth Third Bancorp,1996-03-29,
 FIX,Comfort Systems USA,2025-12-22,
 FL,Foot Locker,2016-04-04,2019-08-09
@@ -398,7 +400,8 @@ HNG,Houston Natural Gas,1976-07-01,1976-07-01
 HNZ,Heinz,1976-07-01,2013-06-06
 HOG,Harley-Davidson,1976-07-01,2020-06-22
 HOLX,Hologic,2016-03-30,2026-04-09
-HON,Honeywell,1957-03-04,
+HON,Honeywell Technologies Inc.,1957-03-04,
+HONA,Honeywell Aerospace,2026-06-29,
 HOOD,Robinhood Markets,2025-09-22,
 HOT,Starwood,1976-07-01,2016-09-22
 HP,Helmerich & Payne,2010-02-26,2020-05-22
@@ -696,7 +699,6 @@ RVTY,Revvity,1985-05-31,
 RX,IMS Health,1976-07-01,2010-02-26
 S,Sprint Nextel,1976-07-01,2013-07-08
 SAI,SAIC,2009-12-18,2013-09-20
-SATS,EchoStar,2026-03-23,
 SBAC,SBA Communications,2017-09-01,
 SBL,Symbol Technologies,2000-12-05,2007-01-10
 SBNY,Signature Bank,2021-12-20,2023-03-15
@@ -819,6 +821,7 @@ USB,U.S. Bancorp,1999-11-01,
 USL,USLife,1976-07-01,1997-06-17
 V,Visa Inc.,2009-12-21,
 VAR,Varian Medical Systems,1976-07-01,2021-04-20
+VEEV,Veeva Systems,2026-05-07,
 VFC,VF Corporation,1976-07-01,2024-04-03
 VIAB,Viacom,1976-07-01,2019-12-05
 VICI,Vici Properties,2022-06-08,
