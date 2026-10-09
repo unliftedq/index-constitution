@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 engine: copilot
-max-ai-credits: 10
+max-ai-credits: 30
 
 permissions:
   contents: read
