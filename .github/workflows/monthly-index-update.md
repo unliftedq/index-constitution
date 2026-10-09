@@ -5,12 +5,37 @@ on:
       timezone: Asia/Shanghai
   workflow_dispatch:
 
-engine: copilot
-max-ai-credits: 30
+engine: &copilot-engine
+  id: copilot
+  version: latest
+max-ai-credits: 50
 
 permissions:
   contents: read
   pull-requests: read
+
+pre-agent-steps:
+  - &install-latest-copilot
+    name: Install latest GitHub Copilot CLI
+    env:
+      GH_TOKEN: ${{ github.token }}
+    run: |
+      set -euo pipefail
+      version="$(gh api repos/github/copilot-cli/releases/latest --jq .tag_name)"
+      if [[ -z "$version" ]]; then
+        echo "::error::Latest Copilot CLI release has no version tag."
+        exit 1
+      fi
+      echo "Installing GitHub Copilot CLI ${version}"
+      path_file="$(mktemp)"
+      trap 'rm -f "$path_file"' EXIT
+      GITHUB_PATH="$path_file" bash "${RUNNER_TEMP}/gh-aw/actions/install_copilot_cli.sh" "$version"
+      if [[ -s "$path_file" ]]; then
+        copilot_binary="$(tail -n 1 "$path_file")/copilot"
+        printf '#!/usr/bin/env bash\nexec %q "$@"\n' "$copilot_binary" > "$path_file"
+        sudo install -m 0755 "$path_file" /usr/local/bin/copilot
+      fi
+      /usr/local/bin/copilot --version
 
 checkout:
   fetch-depth: 0
@@ -48,6 +73,10 @@ tools:
   timeout: 180
 
 safe-outputs:
+  threat-detection:
+    engine: *copilot-engine
+    steps:
+      - *install-latest-copilot
   create-pull-request:
     title-prefix: "[monthly-index-update] "
     draft: false
@@ -69,6 +98,14 @@ safe-outputs:
 # Monthly Index Constituent Audit
 
 Audit all five supported indices and update the repository only when authoritative data has changed.
+
+## Runtime
+
+Both the audit and threat-detection jobs resolve the latest stable Copilot CLI
+release at runtime and install that exact version using the checksum-verifying
+gh-aw installer. A cached CLI is reused only when its version matches that release.
+Both jobs launch `/usr/local/bin/copilot`; cached installations get a wrapper at
+that path so toolcache layout and PATH ordering cannot select an older CLI.
 
 ## Scope
 
