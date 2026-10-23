@@ -50,3 +50,6 @@ event_date,event_type,old_symbol,new_symbol,old_name,new_name,source_url,notes
 2025-03-04,merger,SH600837,SH601211,海通证券,国泰海通证券,https://zh.wikipedia.org/wiki/海通证券,Haitong Securities (SH600837) absorbed by Guotai Junan Securities (SH601211) which renamed to Guotai Haitong Securities; SH600837 delisted on 2025-03-04.
 2026-03-31,delisting,SH603056,,德邦股份,,https://www.sse.com.cn/assortment/stock/list/delisting/,上交所终止上市公司名单所载终止上市日期。
 2025-08-04,merger,SH601989,SH600150,中国重工,中国船舶,https://zh.wikipedia.org/wiki/中国船舶工业,China Shipbuilding Industry Corp (SH601989) absorbed by China State Shipbuilding Corp (SH600150) via share swap; SH601989 delisted on 2025-08-04.
+2026-09-30,name_change,SH600363,,联创光电,ST联光,https://data.eastmoney.com/notices/detail/600363/AN202609281829958053.html,实施其他风险警示后证券简称变更；证券代码不变。
+2026-10-19,merger,SH601059,SH601995,信达证券,中金公司,https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20261012_10834561.shtml,信达证券被中金公司换股吸收合并；上交所公告所载终止上市日期为2026-10-19。
+2026-10-19,merger,SH601198,SH601995,东兴证券,中金公司,https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20261012_10834560.shtml,东兴证券被中金公司换股吸收合并；上交所公告所载终止上市日期为2026-10-19。
