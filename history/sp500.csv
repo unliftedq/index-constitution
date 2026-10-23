@@ -78,7 +78,7 @@ ATI,Allegheny Technologies,1976-07-01,2015-07-02
 ATO,Atmos Energy,2019-02-15,
 ATVI,Activision Blizzard,2015-08-28,2023-10-18
 AV,Avaya,1976-07-01,2007-10-26
-AVB,AvalonBay Communities,2007-01-10,
+AVB,AvalonBay Communities,2007-01-10,2026-08-18
 AVGO,Broadcom,2014-05-08,
 AVP,Avon Products,1976-07-01,2015-03-23
 AVY,Avery Dennison,1987-12-31,
@@ -99,6 +99,7 @@ BBY,Best Buy,1999-06-29,
 BC,Brunswick,1976-07-01,2008-06-23
 BCR,CR Bard,1976-07-01,2018-01-03
 BDX,Becton Dickinson,1972-09-30,
+BE,Bloom Energy,2026-09-21,
 BEAM,Suntory Global Spirits,1976-07-01,2014-05-01
 BEN,Franklin Resources,1998-04-30,
 BF.B,Brown–Forman,1982-10-31,
@@ -111,7 +112,7 @@ BIO,Bio-Rad Laboratories,2020-06-22,2024-09-23
 BJS,BJ Services,1976-07-01,2010-04-29
 BKNG,Booking Holdings,2009-11-03,
 BKR,Baker Hughes,2017-07-07,
-BLDR,Builders FirstSource,2023-12-18,
+BLDR,Builders FirstSource,2023-12-18,2026-09-21
 BLK,BlackRock,2011-04-04,
 BMC,BMC Software,1976-07-01,2013-09-10
 BMS,Bemis Company,1976-07-01,2014-12-05
@@ -212,7 +213,7 @@ CTAS,Cintas,2001-03-01,
 CTLT,Catalent,2020-09-21,2024-12-23
 CTRA,Coterra,2008-06-23,2026-05-07
 CTSH,Cognizant,2006-11-17,
-CTVA,Corteva,2019-06-03,
+CTVA,Corteva,2019-06-03,2026-10-06
 CTX,Centex Corp.,1976-07-01,2009-08-19
 CTXS,Citrix Systems,1976-07-01,2022-10-03
 CVC,Cablevision,2010-12-17,2016-06-22
@@ -425,6 +426,7 @@ IEX,IDEX Corporation,2019-08-09,
 IFF,International Flavors & Fragrances,1976-03-31,
 IGT,International Game Technology,1976-07-01,2014-06-20
 ILMN,Illumina,2015-11-19,2024-06-24
+ILMN,Illumina,2026-09-21,
 INCY,Incyte,2017-02-28,
 INFO,IHS Markit,2017-06-02,2022-03-02
 INTC,Intel,1976-12-31,
@@ -618,6 +620,7 @@ ORCL,Oracle Corporation,1989-08-31,
 ORLY,O’Reilly Automotive,2009-03-27,
 OTIS,Otis Worldwide,2020-04-03,
 OXY,Occidental Petroleum,1957-03-04,
+P,Everpure,2026-09-21,
 PANW,Palo Alto Networks,2023-06-20,
 PAYC,Paycom,2020-01-28,2026-03-23
 PAYX,Paychex,1998-10-01,
@@ -657,7 +660,6 @@ PPL,PPL Corporation,2001-10-01,
 PRGO,Perrigo,2011-12-16,2021-09-20
 PRU,Prudential Financial,2002-07-22,
 PSA,Public Storage,2005-08-19,
-PSKY,Paramount Skydance Corporation,1994-09-30,
 PSX,Phillips 66,2012-05-01,
 PTC,PTC Inc.,2021-04-20,
 PTV,Pactiv,1976-07-01,2010-11-17
@@ -675,6 +677,7 @@ R,Ryder System,1976-07-01,2017-06-19
 RAD,Rite Aid,1976-07-01,2000-07-27
 RAI,Reynolds American,1976-07-01,2017-07-26
 RCL,Royal Caribbean Group,2014-12-05,
+RDDT,Reddit,2026-08-18,
 RDC,Rowan Companies,1976-07-01,2014-08-18
 REG,Regency Centers,2017-03-02,
 REGN,Regeneron Pharmaceuticals,2013-05-01,
@@ -716,6 +719,7 @@ SIG,Signet Jewelers,2015-07-29,2018-03-19
 SII,Smith International,1976-07-01,2010-08-26
 SIVB,SVB Financial Group,2018-03-19,2023-03-15
 SJM,J.M. Smucker Company (The),2008-11-06,
+SKYD,Skydance Corporation,1994-09-30,
 SLB,Schlumberger,1957-03-04,
 SLE,Sara Lee Corporation,1976-07-01,2012-06-29
 SLG,SL Green Realty,2015-03-23,2021-03-22
@@ -757,7 +761,7 @@ SYK,Stryker Corporation,2000-12-12,
 SYY,Sysco,1986-12-31,
 T,AT&T Corporation,1976-07-01,2005-11-18
 T,AT&T,1983-11-30,
-TAP,Molson Coors Beverage Company,1976-06-30,
+TAP,Molson Coors Beverage Company,1976-06-30,2026-09-21
 TDC,Teradata,2007-10-01,2017-06-19
 TDG,TransDigm Group,2016-06-03,
 TDY,Teledyne Technologies,2020-06-22,
@@ -795,9 +799,10 @@ TSLA,"Tesla, Inc.",2020-12-21,
 TSN,Tyson Foods,2005-08-10,
 TSS,TSYS,1976-07-01,2019-09-23
 TT,Trane Technologies,2010-11-17,
-TTD,Trade Desk (The),2025-07-18,
+TTD,Trade Desk (The),2025-07-18,2026-09-21
 TTWO,Take-Two Interactive,2018-03-19,
 TWC,Time Warner Cable,1976-07-01,2016-05-18
+TWLO,Twilio,2026-10-06,
 TWTR,Twitter,2018-06-07,2022-11-01
 TWX,Time Warner,1976-07-01,2018-06-20
 TXN,Texas Instruments,2001-03-12,
@@ -837,12 +842,13 @@ VRTX,Vertex Pharmaceuticals,2013-09-23,
 VST,Vistra Corp .,2024-05-08,
 VTR,Ventas,2009-03-04,
 VTRS,Viatris,2004-04-23,
+VYLR,Vylor,2026-10-01,
 VZ,Verizon,1983-11-30,
 WAB,Wabtec,2019-02-27,
 WAT,Waters Corporation,2002-01-02,
 WB,Wachovia Bank,1976-07-01,2008-12-31
 WBA,Walgreens Boots Alliance,1976-07-01,2025-08-28
-WBD,Warner Bros. Discovery,2022-04-11,
+WBD,Warner Bros. Discovery,2022-04-11,2026-10-06
 WCG,WellCare,2018-09-14,2020-01-28
 WDAY,"Workday, Inc.",2024-12-23,
 WDC,Western Digital,2009-07-01,
